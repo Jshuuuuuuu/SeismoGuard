@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import math
+from pathlib import Path
 from typing import Any
 
 import pandas as pd
@@ -427,3 +428,122 @@ def event_based_generator(
     X = pd.DataFrame(rows, index=index)
     y = pd.Series(targets, index=index, name="target")
     return X, y
+
+
+def leakage_audit(
+    X: pd.DataFrame,
+    events_df: pd.DataFrame,
+    feature_fn,
+    province_col: str = "province",
+    datetime_col: str = "datetime",
+    sample_size: int = 10,
+    random_state: int = 42,
+    feature_kwargs: dict[str, Any] | None = None,
+    atol: float = 1e-9,
+) -> pd.DataFrame:
+    """Audit leakage by recomputing sampled feature rows using past-only data.
+
+    Returns a long-form DataFrame with observed values (from X) and
+    recomputed values (full vs past-only). Any mismatches indicate leakage
+    or drift between X and the feature function.
+    """
+    if not isinstance(X.index, pd.MultiIndex) or province_col not in X.index.names:
+        raise ValueError("X must be indexed by a MultiIndex including province and forecast_date")
+
+    if "forecast_date" not in X.index.names:
+        raise ValueError("X index must include 'forecast_date'")
+
+    feature_kwargs = feature_kwargs or {}
+
+    events = events_df.copy()
+    events[datetime_col] = pd.to_datetime(events[datetime_col], errors="coerce", utc=True)
+    events = events.dropna(subset=[datetime_col])
+
+    sample = X.sample(n=min(sample_size, len(X)), random_state=random_state)
+    records: list[dict[str, Any]] = []
+
+    def _values_match(a: Any, b: Any) -> bool:
+        if pd.isna(a) and pd.isna(b):
+            return True
+        try:
+            return math.isclose(float(a), float(b), abs_tol=atol)
+        except (TypeError, ValueError):
+            return a == b
+
+    for (province, forecast_date), row in sample.iterrows():
+        province_events = events[events[province_col] == province].copy()
+        forecast_date = pd.to_datetime(forecast_date, utc=True)
+        past_only = province_events[province_events[datetime_col] < forecast_date]
+
+        recomputed_full = feature_fn(province_events, forecast_date, **feature_kwargs)
+        recomputed_past = feature_fn(past_only, forecast_date, **feature_kwargs)
+
+        for feature_name, observed_value in row.to_dict().items():
+            full_value = recomputed_full.get(feature_name)
+            past_value = recomputed_past.get(feature_name)
+            matches_full = _values_match(observed_value, full_value)
+            matches_past = _values_match(observed_value, past_value)
+            records.append(
+                {
+                    "province": province,
+                    "forecast_date": forecast_date,
+                    "feature": feature_name,
+                    "observed": observed_value,
+                    "recomputed_full": full_value,
+                    "recomputed_past": past_value,
+                    "match_full": matches_full,
+                    "match_past": matches_past,
+                }
+            )
+
+    return pd.DataFrame.from_records(records)
+
+
+def plot_feature_diagnostics(
+    X: pd.DataFrame,
+    output_dir: str | Path = "outputs",
+    bins: int = 30,
+    figsize: tuple[int, int] = (12, 8),
+) -> dict[str, Path]:
+    """Plot feature distributions and correlation heatmap.
+
+    Saves two files:
+    - feature_distributions.png
+    - feature_correlation_heatmap.png
+    """
+    try:
+        import matplotlib.pyplot as plt
+    except ImportError as exc:  # pragma: no cover - depends on local environment
+        raise ImportError("matplotlib is required for plotting diagnostics") from exc
+
+    output_path = Path(output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    numeric_X = X.select_dtypes(include="number")
+    if numeric_X.empty:
+        raise ValueError("X has no numeric columns to plot")
+
+    ax = numeric_X.hist(bins=bins, figsize=figsize)
+    for axes in ax:
+        for a in axes:
+            a.set_ylabel("count")
+    dist_path = output_path / "feature_distributions.png"
+    plt.tight_layout()
+    plt.savefig(dist_path, dpi=150)
+    plt.close()
+
+    corr = numeric_X.corr()
+    plt.figure(figsize=figsize)
+    plt.imshow(corr, cmap="viridis", aspect="auto")
+    plt.colorbar(label="correlation")
+    plt.xticks(range(len(corr.columns)), corr.columns, rotation=45, ha="right")
+    plt.yticks(range(len(corr.columns)), corr.columns)
+    plt.tight_layout()
+    corr_path = output_path / "feature_correlation_heatmap.png"
+    plt.savefig(corr_path, dpi=150)
+    plt.close()
+
+    return {
+        "feature_distributions": dist_path,
+        "feature_correlation_heatmap": corr_path,
+    }

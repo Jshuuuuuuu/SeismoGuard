@@ -1,0 +1,2 @@
+rows,columns,feature_columns
+2418,6,count_1d;count_7d;count_30d;max_mag_7d;max_mag_30d;mean_depth_30d
