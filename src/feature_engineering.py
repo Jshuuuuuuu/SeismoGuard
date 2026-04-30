@@ -4,7 +4,10 @@ import math
 from pathlib import Path
 from typing import Any
 
+import geopandas as gpd
+import numpy as np
 import pandas as pd
+from shapely.geometry import Point
 
 
 def _build_category_1_3_base(province_df: pd.DataFrame, forecast_date_T: Any) -> dict[str, int | float]:
@@ -31,10 +34,23 @@ def _build_category_1_3_base(province_df: pd.DataFrame, forecast_date_T: Any) ->
     if pd.isna(t):
         raise ValueError("forecast_date_T could not be parsed into a valid datetime")
 
-    df = province_df.copy()
-    df["datetime"] = pd.to_datetime(df["datetime"], errors="coerce", utc=True)
-    df["magnitude"] = pd.to_numeric(df["magnitude"], errors="coerce")
-    df["depth"] = pd.to_numeric(df["depth"], errors="coerce")
+    df = province_df
+    needs_copy = False
+    if not pd.api.types.is_datetime64_any_dtype(df["datetime"]):
+        needs_copy = True
+    else:
+        tz = getattr(df["datetime"].dtype, "tz", None)
+        if tz is None or str(tz) != "UTC":
+            needs_copy = True
+    if not pd.api.types.is_numeric_dtype(df["magnitude"]):
+        needs_copy = True
+    if not pd.api.types.is_numeric_dtype(df["depth"]):
+        needs_copy = True
+    if needs_copy:
+        df = province_df.copy()
+        df["datetime"] = pd.to_datetime(df["datetime"], errors="coerce", utc=True)
+        df["magnitude"] = pd.to_numeric(df["magnitude"], errors="coerce")
+        df["depth"] = pd.to_numeric(df["depth"], errors="coerce")
 
     # Strictly past-only: events at T are excluded to prevent leakage.
     df = df[(df["datetime"].notna()) & (df["datetime"] < t)]
@@ -89,6 +105,47 @@ def build_category_1_3_features(province_df: pd.DataFrame, forecast_date_T: Any)
     return _build_category_1_3_base(province_df, forecast_date_T)
 
 
+_faults_davao = None
+_faults_union = None
+_fault_dist_cache: dict[tuple[float, float], float] = {}
+
+
+def _load_faults() -> gpd.GeoDataFrame:
+    global _faults_davao, _faults_union
+    if _faults_davao is None:
+        # Cache filtered faults so the shapefile loads only once.
+        data_path = Path(__file__).resolve().parents[1] / "data" / "raw" / "faults" / "gem_active_faults_harmonized.shp"
+        gdf = gpd.read_file(data_path)
+        if gdf.crs is None:
+            gdf = gdf.set_crs("EPSG:4326")
+        # Filter to Davao Region XI bounding box only (for speed).
+        _faults_davao = gdf.cx[125.0:127.0, 5.9:8.5].copy()
+        if _faults_davao.crs is None or _faults_davao.crs.to_string() != "EPSG:4326":
+            _faults_davao = _faults_davao.to_crs("EPSG:4326")
+        _faults_union = _faults_davao.geometry.unary_union if not _faults_davao.empty else None
+    return _faults_davao
+
+
+def _min_dist_to_fault_km(lat: float, lon: float) -> float:
+    faults = _load_faults()
+    if faults.empty:
+        return float("nan")
+    if pd.isna(lat) or pd.isna(lon):
+        return float("nan")
+    key = (float(lat), float(lon))
+    cached = _fault_dist_cache.get(key)
+    if cached is not None:
+        return cached
+    pt = Point(lon, lat)
+    # degrees -> km approximation (1 deg ~= 111 km at this latitude).
+    if _faults_union is None:
+        return float("nan")
+    min_deg = _faults_union.distance(pt)
+    dist_km = float(min_deg) * 111.0
+    _fault_dist_cache[key] = dist_km
+    return dist_km
+
+
 def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     """Great-circle distance in kilometers between two latitude/longitude points."""
     r_km = 6371.0
@@ -138,14 +195,11 @@ def nearest_fault_distance_km(
 def _build_category_4_5_base(
     province_df: pd.DataFrame,
     forecast_date_T: Any,
-    fault_points_df: pd.DataFrame,
     event_lat_col: str = "latitude",
     event_lon_col: str = "longitude",
-    fault_lat_col: str = "latitude",
-    fault_lon_col: str = "longitude",
 ) -> dict[str, float]:
-    """Base builder for Category 4 and 5 features using strict past-only data."""
-    required_cols = {"datetime", "magnitude", event_lat_col, event_lon_col}
+    """Base builder for Category 4 and 5 fault proximity features."""
+    required_cols = {"datetime", event_lat_col, event_lon_col}
     missing_cols = required_cols - set(province_df.columns)
     if missing_cols:
         missing = ", ".join(sorted(missing_cols))
@@ -155,110 +209,209 @@ def _build_category_4_5_base(
     if pd.isna(t):
         raise ValueError("forecast_date_T could not be parsed into a valid datetime")
 
-    events = province_df.copy()
-    events["datetime"] = pd.to_datetime(events["datetime"], errors="coerce", utc=True)
-    events["magnitude"] = pd.to_numeric(events["magnitude"], errors="coerce")
-    events[event_lat_col] = pd.to_numeric(events[event_lat_col], errors="coerce")
-    events[event_lon_col] = pd.to_numeric(events[event_lon_col], errors="coerce")
+    events = province_df
+    needs_copy = False
+    if not pd.api.types.is_datetime64_any_dtype(events["datetime"]):
+        needs_copy = True
+    else:
+        tz = getattr(events["datetime"].dtype, "tz", None)
+        if tz is None or str(tz) != "UTC":
+            needs_copy = True
+    if not pd.api.types.is_numeric_dtype(events[event_lat_col]):
+        needs_copy = True
+    if not pd.api.types.is_numeric_dtype(events[event_lon_col]):
+        needs_copy = True
+    if needs_copy:
+        events = province_df.copy()
+        events["datetime"] = pd.to_datetime(events["datetime"], errors="coerce", utc=True)
+        events[event_lat_col] = pd.to_numeric(events[event_lat_col], errors="coerce")
+        events[event_lon_col] = pd.to_numeric(events[event_lon_col], errors="coerce")
 
-    # Strict no-leakage cutoff.
     events = events[(events["datetime"].notna()) & (events["datetime"] < t)].copy()
+    events = events.dropna(subset=[event_lat_col, event_lon_col])
 
-    if events.empty:
-        return {"days_since_m5": float("nan"), "nearest_fault_km": float("nan")}
+    past_7d = events[(events["datetime"] >= t - pd.Timedelta(days=7))]
+    past_30d = events[(events["datetime"] >= t - pd.Timedelta(days=30))]
 
-    # Recency signal for latest M5+ event.
-    m5_events = events[events["magnitude"] >= 5.0]
-    if m5_events.empty:
-        days_since_m5 = float("nan")
+    if past_7d.empty:
+        return {
+            "min_fault_dist_km": np.nan,
+            "mean_fault_dist_km_7d": np.nan,
+            "pct_near_fault_30d": np.nan,
+        }
+
+    dists_7d = past_7d.apply(
+        lambda r: _min_dist_to_fault_km(float(r[event_lat_col]), float(r[event_lon_col])), axis=1
+    )
+    if past_30d.empty:
+        dists_30d = pd.Series([np.nan])
     else:
-        last_m5_time = m5_events["datetime"].max()
-        days_since_m5 = float((t - last_m5_time) / pd.Timedelta(days=1))
-
-    # Fault proximity from the latest known event location before T.
-    latest_event = events.sort_values("datetime").iloc[-1]
-    lat = latest_event[event_lat_col]
-    lon = latest_event[event_lon_col]
-    if pd.isna(lat) or pd.isna(lon):
-        nearest_fault_km = float("nan")
-    else:
-        nearest_fault_km = nearest_fault_distance_km(
-            event_lat=float(lat),
-            event_lon=float(lon),
-            fault_points_df=fault_points_df,
-            fault_lat_col=fault_lat_col,
-            fault_lon_col=fault_lon_col,
+        dists_30d = past_30d.apply(
+            lambda r: _min_dist_to_fault_km(float(r[event_lat_col]), float(r[event_lon_col])), axis=1
         )
 
     return {
-        "days_since_m5": days_since_m5,
-        "nearest_fault_km": float(nearest_fault_km),
+        "min_fault_dist_km": float(dists_7d.min()),
+        "mean_fault_dist_km_7d": float(dists_7d.mean()),
+        "pct_near_fault_30d": float((dists_30d < 10).mean()),
     }
 
 
-def cat4(
-    province_df: pd.DataFrame,
+def compute_fault_features(
+    df: pd.DataFrame,
     forecast_date_T: Any,
-    fault_points_df: pd.DataFrame,
     event_lat_col: str = "latitude",
     event_lon_col: str = "longitude",
-    fault_lat_col: str = "latitude",
-    fault_lon_col: str = "longitude",
 ) -> dict[str, float]:
-    """Category 4 features (recency)."""
-    features = _build_category_4_5_base(
-        province_df=province_df,
+    """Compute fault proximity features using only events before T."""
+    return _build_category_4_5_base(
+        province_df=df,
         forecast_date_T=forecast_date_T,
-        fault_points_df=fault_points_df,
         event_lat_col=event_lat_col,
         event_lon_col=event_lon_col,
-        fault_lat_col=fault_lat_col,
-        fault_lon_col=fault_lon_col,
     )
-    return {"days_since_m5": float(features["days_since_m5"])}
+
+
+def cat4(province_df: pd.DataFrame, forecast_date_T: Any) -> dict[str, float]:
+    """Category 4: Recency - days since last M>=5.0 event."""
+    t = pd.to_datetime(forecast_date_T, utc=True)
+
+    events = province_df
+    needs_copy = False
+    if not pd.api.types.is_datetime64_any_dtype(events["datetime"]):
+        needs_copy = True
+    else:
+        tz = getattr(events["datetime"].dtype, "tz", None)
+        if tz is None or str(tz) != "UTC":
+            needs_copy = True
+    if not pd.api.types.is_numeric_dtype(events["magnitude"]):
+        needs_copy = True
+    if needs_copy:
+        events = province_df.copy()
+        events["datetime"] = pd.to_datetime(events["datetime"], errors="coerce", utc=True)
+        events["magnitude"] = pd.to_numeric(events["magnitude"], errors="coerce")
+
+    past = events[events["datetime"] < t]
+    sig = past[past["magnitude"] >= 5.0]
+    if sig.empty:
+        days = 999
+    else:
+        days = int((t - sig["datetime"].max()).days)
+    return {"days_since_m5": float(days)}
 
 
 def cat5(
     province_df: pd.DataFrame,
     forecast_date_T: Any,
-    fault_points_df: pd.DataFrame,
     event_lat_col: str = "latitude",
     event_lon_col: str = "longitude",
-    fault_lat_col: str = "latitude",
-    fault_lon_col: str = "longitude",
 ) -> dict[str, float]:
-    """Category 5 features (fault proximity)."""
-    features = _build_category_4_5_base(
-        province_df=province_df,
+    """Category 5 features (fault proximity: min, mean 7d, pct near 30d)."""
+    return compute_fault_features(
+        df=province_df,
         forecast_date_T=forecast_date_T,
-        fault_points_df=fault_points_df,
         event_lat_col=event_lat_col,
         event_lon_col=event_lon_col,
-        fault_lat_col=fault_lat_col,
-        fault_lon_col=fault_lon_col,
     )
-    return {"nearest_fault_km": float(features["nearest_fault_km"])}
 
 
 def build_category_4_5_features(
     province_df: pd.DataFrame,
     forecast_date_T: Any,
-    fault_points_df: pd.DataFrame,
     event_lat_col: str = "latitude",
     event_lon_col: str = "longitude",
-    fault_lat_col: str = "latitude",
-    fault_lon_col: str = "longitude",
 ) -> dict[str, float]:
-    """Legacy name for Category 4-5 features. Prefer cat4/cat5."""
-    return _build_category_4_5_base(
-        province_df=province_df,
+    """Legacy name for Category 4-5 features. Prefer cat5."""
+    return compute_fault_features(
+        df=province_df,
         forecast_date_T=forecast_date_T,
-        fault_points_df=fault_points_df,
         event_lat_col=event_lat_col,
         event_lon_col=event_lon_col,
-        fault_lat_col=fault_lat_col,
-        fault_lon_col=fault_lon_col,
     )
+
+
+def cat7(province_df: pd.DataFrame, forecast_date_T: Any) -> dict[str, float]:
+    """Category 7: Gutenberg-Richter features (b-value, a-value, delta_b)."""
+    t = pd.to_datetime(forecast_date_T, utc=True)
+
+    events = province_df
+    needs_copy = False
+    if not pd.api.types.is_datetime64_any_dtype(events["datetime"]):
+        needs_copy = True
+    else:
+        tz = getattr(events["datetime"].dtype, "tz", None)
+        if tz is None or str(tz) != "UTC":
+            needs_copy = True
+    if not pd.api.types.is_numeric_dtype(events["magnitude"]):
+        needs_copy = True
+    if needs_copy:
+        events = province_df.copy()
+        events["datetime"] = pd.to_datetime(events["datetime"], errors="coerce", utc=True)
+        events["magnitude"] = pd.to_numeric(events["magnitude"], errors="coerce")
+    events = events[events["datetime"] < t].dropna(subset=["datetime", "magnitude"])
+
+    def _aki_b_value(subset: pd.DataFrame) -> tuple[float, float]:
+        """Aki (1965) maximum likelihood b-value estimator."""
+        if len(subset) < 30:
+            return np.nan, np.nan
+        mags = subset["magnitude"].values
+        mc = mags.min()
+        above = mags[mags >= mc]
+        if len(above) < 30:
+            return np.nan, np.nan
+        b_val = 1.0 / (np.log(10) * (above.mean() - mc))
+        a_val = np.log10(len(above)) + b_val * mc
+        return float(b_val), float(a_val)
+
+    past_180d = events[events["datetime"] >= t - pd.Timedelta(days=180)]
+    past_90d_cur = events[events["datetime"] >= t - pd.Timedelta(days=90)]
+    past_90d_prev = events[
+        (events["datetime"] >= t - pd.Timedelta(days=180))
+        & (events["datetime"] < t - pd.Timedelta(days=90))
+    ]
+
+    b_180, a_180 = _aki_b_value(past_180d)
+    b_cur, _ = _aki_b_value(past_90d_cur)
+    b_prev, _ = _aki_b_value(past_90d_prev)
+
+    delta_b = float(b_cur - b_prev) if not (np.isnan(b_cur) or np.isnan(b_prev)) else np.nan
+
+    return {
+        "b_value_180d": b_180,
+        "a_value_180d": a_180,
+        "delta_b_90d": delta_b,
+    }
+
+
+def compute_all_features(
+    province_df: pd.DataFrame,
+    forecast_date_T: Any,
+    gr_feature_fn=None,
+    event_lat_col: str = "latitude",
+    event_lon_col: str = "longitude",
+) -> dict[str, int | float]:
+    """Compute the full feature set with optional extra features."""
+    features: dict[str, int | float] = {}
+    features.update(cat1(province_df, forecast_date_T))
+    features.update(cat2(province_df, forecast_date_T))
+    features.update(cat3(province_df, forecast_date_T))
+    features.update(cat4(province_df, forecast_date_T))
+    features.update(cat5(province_df, forecast_date_T, event_lat_col=event_lat_col, event_lon_col=event_lon_col))
+    features.update(
+        cat6(
+            province_df=province_df,
+            forecast_date_T=forecast_date_T,
+            event_lat_col=event_lat_col,
+            event_lon_col=event_lon_col,
+        )
+    )
+    features.update(cat7(province_df, forecast_date_T))
+    if gr_feature_fn is not None:
+        gr_features = gr_feature_fn(province_df, forecast_date_T)
+        if not isinstance(gr_features, dict):
+            raise ValueError("gr_feature_fn must return a dict of feature_name -> value")
+        features.update(gr_features)
+    return features
 
 
 def cat6(
@@ -385,6 +538,12 @@ def event_based_generator(
     events = events_df.copy()
     events[datetime_col] = pd.to_datetime(events[datetime_col], errors="coerce", utc=True)
     events[magnitude_col] = pd.to_numeric(events[magnitude_col], errors="coerce")
+    if "depth" in events.columns:
+        events["depth"] = pd.to_numeric(events["depth"], errors="coerce")
+    if "latitude" in events.columns:
+        events["latitude"] = pd.to_numeric(events["latitude"], errors="coerce")
+    if "longitude" in events.columns:
+        events["longitude"] = pd.to_numeric(events["longitude"], errors="coerce")
     events = events.dropna(subset=[datetime_col])
 
     rows: list[dict[str, Any]] = []
