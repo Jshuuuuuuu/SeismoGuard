@@ -1,0 +1,741 @@
+datetime,latitude,longitude,depth,magnitude,magnitude_type,location,source_url
+2026-02-01 02:24:00,5.89,125.68,124.0,2.2,,004 km S 62° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/January/2026_0131_1824_B1.html
+2026-02-01 03:29:00,7.93,126.35,33.0,2.1,,007 km N 27° W of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/January/2026_0131_1929_B1.html
+2026-02-01 03:43:00,6.51,125.65,27.0,1.6,,012 km N 24° E of Malita (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/January/2026_0131_1943_B1.html
+2026-02-01 04:34:00,5.57,125.6,206.0,2.5,,017 km N 53° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/January/2026_0131_2034_B2.html
+2026-02-01 11:15:00,7.86,127.09,7.0,2.9,,066 km N 61° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0201_0315_B2.html
+2026-02-01 16:57:00,7.81,126.43,15.0,1.5,,004 km N 49° W of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0201_0857_B1.html
+2026-02-01 17:32:00,7.95,126.32,5.0,1.8,,011 km N 37° W of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0201_0932_B1.html
+2026-02-01 20:41:00,6.48,126.38,51.0,1.9,,039 km S 60° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0201_1241_B2.html
+2026-02-01 21:11:00,7.86,126.55,51.0,2.6,,013 km N 52° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0201_1311_B1.html
+2026-02-02 02:18:00,5.87,125.71,56.0,2.2,,008 km S 55° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0201_1818_B2.html
+2026-02-02 09:25:00,7.29,125.6,11.0,2.0,,008 km N 88° W of City Of Panabo (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0202_0125_B1.html
+2026-02-02 16:03:00,6.47,126.38,28.0,2.8,,040 km S 59° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0202_0803_B2.html
+2026-02-02 19:36:00,7.76,127.19,22.0,2.2,,072 km N 74° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0202_1136_B1.html
+2026-02-02 20:38:00,7.41,126.73,17.0,2.0,,020 km N 62° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0202_1238_B1.html
+2026-02-03 01:57:00,7.33,126.98,16.0,1.9,,050 km N 74° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0202_1757_B2F.html
+2026-02-03 03:08:00,7.12,125.96,20.0,2.2,,007 km S 85° E of Pantukan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0202_1908_B2.html
+2026-02-03 19:49:00,7.56,126.64,23.0,2.7,,009 km S 76° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0203_1149_B2.html
+2026-02-03 20:31:00,6.53,126.23,27.0,2.6,,022 km S 53° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0203_1231_B2.html
+2026-02-03 23:33:00,7.1,127.18,8.0,3.4,,071 km S 81° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0203_153300_B2F.html
+2026-02-04 01:04:00,7.29,126.47,164.0,2.3,,011 km N 42° W of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0203_1704_B1.html
+2026-02-04 01:16:00,4.44,125.21,20.0,3.6,,110 km S 12° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0203_1716_B2.html
+2026-02-04 01:34:00,7.03,125.7,22.0,1.4,,005 km S 19° W of Island Garden City Of Samal (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0203_1734_B1.html
+2026-02-04 02:21:00,5.8,126.48,15.0,2.4,,093 km S 83° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0203_1821_B1.html
+2026-02-04 04:46:00,7.4,126.99,20.0,1.6,,048 km N 80° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0203_2046_B1.html
+2026-02-04 10:53:00,4.1,125.92,70.0,3.0,,156 km S 21° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_0253_B2.html
+2026-02-04 11:50:00,5.96,125.76,121.0,2.9,,014 km N 68° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_0350_B2.html
+2026-02-04 17:41:00,7.89,126.56,15.0,2.1,,016 km N 48° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_0941_B1.html
+2026-02-05 01:16:00,7.3,127.05,7.0,3.4,,053 km S 87° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_1716_B2.html
+2026-02-05 02:03:00,3.41,126.78,32.0,3.5,,268 km S 34° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_1803_B2.html
+2026-02-05 02:34:00,7.32,127.18,19.0,3.6,,072 km N 80° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_1834_B2F.html
+2026-02-05 02:40:00,4.7,124.46,29.0,3.3,,133 km S 54° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_1840_B2.html
+2026-02-05 03:13:00,7.33,127.44,15.0,3.6,,096 km N 90° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_1913_B2.html
+2026-02-05 04:07:00,7.13,126.95,5.0,3.1,,046 km S 80° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_2007_B2F.html
+2026-02-05 05:10:00,7.19,126.46,125.0,2.0,,009 km S 77° W of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_2110_B2.html
+2026-02-05 07:22:00,6.69,125.14,9.0,1.9,,007 km S 11° W of Magsaysay (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0204_2322_B2.html
+2026-02-05 08:43:00,7.3,127.1,9.0,2.9,,059 km S 87° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0205_0043_B2.html
+2026-02-05 15:45:00,5.75,125.91,160.0,2.5,,035 km S 58° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0205_0745_B2.html
+2026-02-05 18:44:00,7.72,127.27,9.0,2.6,,079 km N 79° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0205_1044_B2.html
+2026-02-05 22:08:00,7.76,126.99,12.0,3.0,,052 km N 66° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0205_1408_B2.html
+2026-02-05 22:15:00,6.94,125.43,7.0,1.9,,012 km N 06° E of Santa Cruz (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0205_1415_B2.html
+2026-02-06 00:20:00,7.83,126.62,27.0,2.2,,019 km N 76° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0205_1620_B2.html
+2026-02-06 08:25:00,7.55,126.7,20.0,2.6,,015 km S 80° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0206_0025_B2.html
+2026-02-06 18:00:00,6.25,126.41,47.0,2.6,,058 km S 40° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0206_1000_B1F.html
+2026-02-06 20:47:00,3.82,125.76,134.0,3.7,,179 km S 12° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0206_1247_B2.html
+2026-02-07 08:58:00,7.04,126.63,19.0,2.5,,021 km S 29° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0207_0058_B2F.html
+2026-02-07 12:03:00,7.17,126.66,19.0,2.8,,014 km S 72° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0207_0403_B2F.html
+2026-02-07 19:13:00,6.7,126.03,34.0,1.6,,007 km N 44° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0207_1113_B1.html
+2026-02-07 23:09:00,6.37,126.08,110.0,2.8,,031 km S 01° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0207_1509_B2.html
+2026-02-08 02:08:00,7.27,127.3,7.0,3.3,,084 km N 85° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0207_1808_B2.html
+2026-02-08 05:51:00,6.54,125.85,152.0,2.6,,027 km S 63° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0207_2151_B2.html
+2026-02-08 06:32:00,4.98,126.94,49.0,3.8,,171 km S 72° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0207_2232_B2.html
+2026-02-08 06:39:00,7.41,126.78,24.0,3.6,,025 km N 69° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0207_2239_B2.html
+2026-02-08 10:38:00,5.95,127.5,153.0,1.9,,168 km S 44° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_0238_B1.html
+2026-02-08 13:58:00,6.74,126.46,2.0,3.6,,034 km S 03° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_0558_B1.html
+2026-02-08 15:56:00,5.04,127.58,32.0,3.7,,235 km S 66° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_0756_B2.html
+2026-02-08 17:35:00,7.11,126.87,33.0,2.0,,039 km S 74° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_093601_B2F.html
+2026-02-09 00:25:00,5.53,126.18,68.0,2.8,,073 km S 54° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_1625_B2.html
+2026-02-09 01:50:00,7.77,126.77,22.0,1.6,,032 km N 47° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_1750_B1.html
+2026-02-09 03:18:00,4.31,127.6,135.0,4.4,,277 km S 63° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_1918_B2.html
+2026-02-09 04:26:00,7.35,127.01,6.0,2.6,,049 km N 87° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_2026_B1.html
+2026-02-09 05:11:00,5.97,126.5,33.0,3.2,,090 km S 32° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_2111_B2.html
+2026-02-09 05:21:00,7.33,126.99,4.0,2.1,,051 km N 76° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_2121_B2F.html
+2026-02-09 06:25:00,7.62,126.09,8.0,2.6,,010 km N 34° W of New Bataan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0208_2225_B2.html
+2026-02-09 08:24:00,6.54,126.53,132.0,2.4,,053 km S 77° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0209_0024_B1.html
+2026-02-09 16:30:00,2.37,126.27,19.0,4.4,,349 km S 16° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0209_0830_B2.html
+2026-02-09 17:08:00,3.86,128.17,131.0,3.2,,349 km S 59° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0209_0908_B1.html
+2026-02-09 17:52:00,6.44,126.81,26.0,3.1,,078 km S 30° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0209_0952_B2.html
+2026-02-09 23:31:00,6.53,125.25,23.0,2.1,,011 km S 04° W of Kiblawan (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0209_1531_B2.html
+2026-02-10 04:35:00,5.58,126.04,4.0,2.8,,057 km S 50° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0209_2035_B1.html
+2026-02-10 04:42:00,7.23,126.68,5.0,3.3,,016 km N 80° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0209_2042_B2F.html
+2026-02-10 05:12:00,7.77,126.19,35.0,2.0,,016 km N 45° E of Compostela (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0209_2112_B1.html
+2026-02-10 07:14:00,5.57,127.46,60.0,3.1,,195 km S 52° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0209_2314_B2.html
+2026-02-10 10:29:00,7.4,126.61,13.0,2.4,,009 km N 34° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_0229_B2.html
+2026-02-10 17:03:00,7.94,126.8,24.0,3.0,,041 km N 66° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_0903_B2.html
+2026-02-10 18:19:00,7.29,126.35,3.0,2.0,,023 km N 68° W of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_1019_B1.html
+2026-02-10 20:04:00,6.0,126.98,186.0,2.8,,124 km S 54° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_1204_B2.html
+2026-02-11 00:49:00,5.65,125.98,100.0,1.7,,060 km N 70° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_1649_B2.html
+2026-02-11 01:20:00,6.23,126.31,2.0,1.9,,054 km S 30° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_1720_B1.html
+2026-02-11 01:36:00,5.81,125.99,142.0,2.4,,040 km S 73° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_1736_B2.html
+2026-02-11 04:05:00,4.81,126.63,1.0,3.6,,152 km S 61° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_2005_B2.html
+2026-02-11 06:43:00,7.21,126.86,14.0,2.6,,035 km S 89° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_2243_B2F.html
+2026-02-11 07:12:00,4.69,124.96,22.0,2.6,,094 km S 33° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0210_2312_B2.html
+2026-02-11 11:17:00,7.52,127.25,2.0,3.1,,075 km S 85° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0211_0317_B2.html
+2026-02-11 13:41:00,7.79,126.79,16.0,2.1,,037 km S 90° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0211_0541_B1.html
+2026-02-12 08:51:00,6.44,126.59,62.0,2.5,,062 km S 67° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0212_0051_B2.html
+2026-02-12 19:22:00,6.27,126.92,69.0,3.4,,101 km S 32° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0212_1122_B2.html
+2026-02-12 20:05:00,6.23,126.1,121.0,2.5,,045 km N 86° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0212_1205_B2.html
+2026-02-13 00:34:00,6.2,126.25,20.0,3.7,,054 km S 21° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0212_1634_B2.html
+2026-02-13 01:05:00,6.07,126.38,27.0,2.5,,072 km S 28° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0212_1705_B1.html
+2026-02-13 02:32:00,5.99,126.46,25.0,2.2,,085 km S 30° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0212_1832_B1.html
+2026-02-13 12:35:00,7.6,125.91,17.0,2.1,,007 km N 89° W of Nabunturan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_0435_B2.html
+2026-02-13 18:26:00,2.42,128.43,36.0,4.6,,472 km S 46° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_1026_B2.html
+2026-02-13 18:49:00,3.41,128.03,5.0,4.4,,365 km S 52° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_1049_B1.html
+2026-02-13 20:50:00,6.35,126.96,84.0,4.3,,096 km S 36° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_1250_B3.html
+2026-02-13 21:12:00,2.55,127.93,19.0,4.5,,422 km S 41° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_1312_B2.html
+2026-02-13 22:56:00,3.95,128.62,53.0,5.6,,387 km S 64° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_1456_B3.html
+2026-02-13 23:09:00,3.37,128.27,15.0,4.5,,388 km S 53° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_1509_B2.html
+2026-02-13 23:55:00,4.22,127.84,62.0,5.1,,298 km S 62° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_1555_B3.html
+2026-02-14 01:39:00,3.91,128.93,33.0,4.2,,421 km S 66° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_1739_B2.html
+2026-02-14 02:56:00,3.48,127.77,9.0,4.7,,337 km S 50° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_1856_B2.html
+2026-02-14 04:28:00,4.92,126.33,28.0,4.6,,113 km S 57° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_2028_B1.html
+2026-02-14 05:49:00,4.02,126.4,46.0,4.3,,188 km S 35° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_2149_B2.html
+2026-02-14 06:02:00,6.51,125.9,169.0,3.2,,025 km S 49° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0213_2202_B2.html
+2026-02-14 08:35:00,2.63,127.38,19.0,4.2,,370 km S 36° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_0035_B1.html
+2026-02-14 09:02:00,3.83,126.64,56.0,4.7,,221 km S 37° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_0102_B2.html
+2026-02-14 18:11:00,3.23,127.93,33.0,3.3,,369 km S 49° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_1011_B1.html
+2026-02-14 19:42:00,7.83,126.63,33.0,1.6,,020 km N 78° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_1142_B1.html
+2026-02-14 22:36:00,6.79,126.77,123.0,1.8,,046 km S 51° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_1436_B1.html
+2026-02-14 22:52:00,6.36,126.14,14.0,1.8,,034 km S 12° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_1452_B1.html
+2026-02-14 23:31:00,6.39,126.08,26.0,1.7,,029 km S 02° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_1531_B1.html
+2026-02-15 00:31:00,3.32,128.15,10.0,4.0,,381 km S 53° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_1631_B2.html
+2026-02-15 01:22:00,5.31,127.44,18.0,5.3,,209 km S 71° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_1722_B3.html
+2026-02-15 01:51:00,5.99,125.81,53.0,4.2,,020 km N 64° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_1751_B2.html
+2026-02-15 03:29:00,3.5,128.29,16.0,4.4,,381 km S 55° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_1929_B2.html
+2026-02-15 07:32:00,7.84,126.44,16.0,1.6,,006 km N 19° W of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0214_2332_B1.html
+2026-02-15 11:21:00,6.83,126.15,25.0,3.0,,007 km S 87° E of San Isidro (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0215_0321_B2.html
+2026-02-15 15:05:00,6.75,126.1,22.0,2.5,,009 km S 12° E of San Isidro (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0215_0705_B2.html
+2026-02-15 15:21:00,2.86,126.86,30.0,4.5,,324 km S 29° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0215_0721_B2.html
+2026-02-15 15:29:00,7.9,127.02,11.0,2.6,,062 km N 54° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0215_0729_B1.html
+2026-02-15 16:24:00,5.32,127.65,31.0,3.5,,231 km S 74° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0215_0824_B2.html
+2026-02-15 17:08:00,6.21,125.85,143.0,2.4,,017 km N 84° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0215_0908_B2.html
+2026-02-16 03:10:00,7.19,126.91,33.0,2.2,,041 km S 68° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0215_1910_B2.html
+2026-02-16 08:51:00,7.36,126.96,17.0,2.6,,043 km N 85° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0216_0051_B2.html
+2026-02-16 09:22:00,2.68,128.54,31.0,3.8,,460 km S 49° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0216_0122_B1.html
+2026-02-16 12:52:00,6.75,125.44,18.0,2.1,,010 km N 87° E of City Of Digos (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0216_0452_B1.html
+2026-02-16 14:17:00,7.87,126.46,24.0,2.0,,008 km N 05° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0216_0617_B1.html
+2026-02-17 02:22:00,7.44,126.7,25.0,2.2,,019 km N 51° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0216_1822_B2.html
+2026-02-17 02:47:00,7.57,126.53,22.0,2.2,,003 km S 86° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0216_184725_B1.html
+2026-02-17 06:08:00,7.88,126.51,13.0,2.0,,011 km N 31° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0216_2208_B1.html
+2026-02-17 13:45:00,5.88,125.81,163.0,2.7,,038 km S 20° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0217_0545_B2.html
+2026-02-17 18:17:00,3.82,128.05,30.0,3.3,,339 km S 57° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0217_1017_B1.html
+2026-02-17 18:58:00,7.68,126.76,35.0,1.8,,025 km N 62° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0217_1058_B1.html
+2026-02-17 20:53:00,7.36,126.85,10.0,2.4,,032 km N 83° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0217_1253_B2.html
+2026-02-17 22:20:00,4.31,128.81,201.0,4.3,,391 km S 71° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0217_1420_B2.html
+2026-02-17 22:31:00,5.24,126.36,27.0,3.1,,109 km S 47° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0217_1431_B2.html
+2026-02-18 00:22:00,7.61,126.59,27.0,2.5,,005 km N 38° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0217_1622_B2.html
+2026-02-18 10:00:00,5.22,125.37,8.0,3.0,,022 km S 15° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0218_0200_B2.html
+2026-02-18 14:07:00,7.54,127.12,31.0,1.9,,062 km S 87° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0218_0607_B2.html
+2026-02-19 05:23:00,4.9,125.78,129.0,3.1,,069 km S 35° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0218_2123_B2.html
+2026-02-19 21:44:00,5.53,127.2,73.0,4.0,,176 km S 45° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0219_1344_B2.html
+2026-02-20 01:58:00,4.76,126.33,14.0,3.5,,124 km S 54° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0219_1758_B2.html
+2026-02-20 04:51:00,5.66,126.94,3.0,3.5,,146 km S 41° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0219_2051_B2.html
+2026-02-20 11:02:00,5.59,126.22,109.0,2.7,,073 km S 61° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0220_0302_B2.html
+2026-02-20 18:22:00,4.73,126.1,32.0,3.8,,107 km S 45° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0220_1022_B2.html
+2026-02-20 19:01:00,5.47,125.31,36.0,2.1,,014 km N 60° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0220_1101_B1.html
+2026-02-21 02:35:00,6.49,126.64,23.0,2.8,,065 km S 74° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0220_1835_B1.html
+2026-02-21 14:56:00,7.76,126.67,26.0,3.5,,023 km N 31° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0221_0656_B2.html
+2026-02-21 19:25:00,5.53,127.23,14.0,3.6,,173 km S 46° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0221_1125_B2.html
+2026-02-21 20:42:00,5.7,126.26,32.0,3.5,,072 km S 71° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0221_1242_B2.html
+2026-02-22 04:28:00,2.6,127.68,25.0,4.3,,400 km S 39° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0221_2028_B2.html
+2026-02-22 06:00:00,7.38,126.87,13.0,3.2,,034 km N 81° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0221_2200_B2.html
+2026-02-22 14:18:00,7.55,125.94,31.0,1.6,,005 km N 18° E of Mawab (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0222_0618_B1.html
+2026-02-22 15:48:00,7.25,126.69,3.0,3.4,,016 km S 60° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0222_0748_B2.html
+2026-02-22 18:45:00,7.18,127.16,1.0,3.0,,068 km S 76° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0222_1045_B2.html
+2026-02-22 20:44:00,7.15,126.69,33.0,2.9,,018 km S 68° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0222_124450_B1F.html
+2026-02-22 23:17:00,7.48,126.87,19.0,2.8,,035 km S 74° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0222_1517_B1.html
+2026-02-23 02:15:00,7.89,126.41,20.0,1.6,,004 km N 65° E of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0222_1815_B1.html
+2026-02-23 03:10:00,7.67,126.25,1.0,1.9,,018 km N 89° E of Compostela (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0222_1910_B1.html
+2026-02-23 05:21:00,6.5,126.94,74.0,3.0,,082 km S 42° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0222_2121_B2.html
+2026-02-23 09:32:00,5.43,126.54,34.0,3.4,,113 km S 62° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_0132_B2.html
+2026-02-23 11:55:00,7.15,126.82,7.0,2.9,,031 km S 78° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_0355_B2F.html
+2026-02-23 11:57:00,7.19,126.7,10.0,2.7,,017 km S 82° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_0357_B2F.html
+2026-02-23 13:12:00,5.4,127.04,15.0,2.4,,165 km S 70° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_0512_B1.html
+2026-02-23 13:18:00,6.31,126.45,15.0,2.7,,064 km S 45° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_0518_B2.html
+2026-02-23 17:56:00,7.04,126.79,26.0,2.0,,033 km S 56° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_0956_B1.html
+2026-02-23 20:41:00,7.07,126.88,25.0,1.9,,041 km S 68° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_1241_B1.html
+2026-02-23 20:59:00,7.22,126.83,9.0,3.0,,032 km S 67° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_1259_B2F.html
+2026-02-23 22:39:00,6.61,125.58,36.0,3.1,,013 km N 64° E of Santa Maria (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_1439_B2.html
+2026-02-24 03:19:00,7.37,126.56,23.0,3.8,,004 km N 10° W of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_1919_B2.html
+2026-02-24 03:26:00,6.79,127.17,12.0,2.3,,084 km S 57° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_1926_B1.html
+2026-02-24 07:51:00,7.78,126.42,128.0,2.4,,004 km S 77° W of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0223_2351_B2.html
+2026-02-24 09:36:00,7.68,126.54,18.0,2.4,,015 km S 36° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_0136_B2.html
+2026-02-24 11:29:00,7.18,126.95,9.0,3.0,,045 km S 85° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_0329_B2F.html
+2026-02-24 18:55:00,7.88,126.47,24.0,1.6,,010 km N 13° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_1055_B1.html
+2026-02-24 22:16:00,6.23,126.31,125.0,3.0,,054 km S 29° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_1416_B2.html
+2026-02-24 22:47:00,5.55,125.79,20.0,2.7,,036 km N 77° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_1447_B1.html
+2026-02-24 23:41:00,6.12,125.98,127.0,2.7,,033 km S 74° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_1541_B2.html
+2026-02-25 00:09:00,6.92,125.64,39.0,3.1,,019 km S 26° W of Island Garden City Of Samal (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_1609_B2.html
+2026-02-25 02:41:00,5.59,126.88,21.0,3.1,,141 km S 75° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_1841_B2.html
+2026-02-25 03:37:00,6.17,126.99,13.0,2.2,,114 km S 62° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_1937_B1.html
+2026-02-25 03:39:00,6.5,126.7,99.0,2.2,,067 km S 25° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_1939_B2.html
+2026-02-25 03:56:00,6.31,126.17,29.0,1.9,,040 km S 16° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0224_1956_B1.html
+2026-02-25 09:12:00,6.12,126.33,135.0,2.5,,071 km S 83° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0225_0112_B2.html
+2026-02-25 13:54:00,7.1,127.03,14.0,3.0,,055 km S 77° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0225_0554_B2F.html
+2026-02-25 14:57:00,6.71,126.59,30.0,2.5,,040 km S 23° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0225_0657_B2.html
+2026-02-26 03:27:00,7.65,126.99,10.0,2.1,,048 km N 80° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0225_1927_B2.html
+2026-02-26 16:39:00,4.42,125.73,85.0,3.0,,115 km S 17° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0226_0839_B2.html
+2026-02-26 19:10:00,5.76,126.05,24.0,3.0,,048 km S 69° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0226_1110_B1.html
+2026-02-26 22:20:00,7.82,126.92,11.0,2.0,,048 km N 55° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0226_1420_B1.html
+2026-02-26 22:47:00,5.1,126.14,2.0,3.0,,085 km S 61° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0226_1447_B2.html
+2026-02-26 22:56:00,7.87,126.95,21.0,1.9,,055 km N 81° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0226_1456_B2.html
+2026-02-27 05:54:00,5.97,126.04,138.0,2.7,,044 km N 82° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0226_2154_B2.html
+2026-02-27 07:06:00,2.54,125.79,46.0,4.3,,320 km S 07° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0226_2306_B2.html
+2026-02-27 07:47:00,3.91,126.34,45.0,3.3,,195 km S 31° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0226_2347_B2.html
+2026-02-27 08:08:00,7.41,126.41,13.0,2.0,,019 km N 63° W of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0227_0008_B1.html
+2026-02-27 15:28:00,5.48,126.81,19.0,2.5,,138 km S 70° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0227_0728_B1.html
+2026-02-27 20:00:00,6.63,126.25,52.0,3.8,,019 km S 84° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0227_1200_B2.html
+2026-02-27 20:55:00,7.74,126.38,11.0,1.7,,010 km S 59° W of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0227_1255_B1.html
+2026-02-27 22:59:00,7.04,127.11,21.0,2.4,,066 km S 74° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0227_1459_B2F.html
+2026-02-27 23:37:00,5.7,127.3,66.0,3.1,,173 km S 52° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0227_1537_B2.html
+2026-02-28 03:17:00,7.28,126.48,2.0,2.7,,010 km N 43° W of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0227_1917_B2F.html
+2026-02-28 05:40:00,7.93,126.97,6.0,3.2,,060 km N 49° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0227_2140_B2.html
+2026-02-28 08:28:00,6.22,126.03,94.0,2.1,,037 km N 87° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0228_0028_B2.html
+2026-02-28 09:41:00,7.26,126.92,16.0,3.0,,040 km S 79° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0228_0141_B2.html
+2026-02-28 12:15:00,3.51,124.85,361.0,4.5,,220 km S 17° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0228_0415_B3.html
+2026-02-28 15:49:00,7.33,126.57,4.0,2.5,,001 km East of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0228_0749_B1.html
+2026-02-28 19:25:00,6.97,125.7,57.0,1.9,,012 km S 07° W of Island Garden City Of Samal (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0228_1125_B2.html
+2026-02-28 21:23:00,6.8,126.51,27.0,3.0,,029 km S 13° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0228_1323_B2.html
+2026-03-01 01:22:00,4.75,126.18,101.0,5.4,,112 km S 49° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0228_1722_B3F.html
+2026-03-01 03:58:00,5.97,126.07,121.0,2.3,,048 km S 59° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/February/2026_0228_1958_B1.html
+2026-03-01 15:18:00,7.24,126.59,32.0,2.7,,007 km N 64° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0301_0718_B2F.html
+2026-03-01 23:21:00,4.66,125.96,151.0,3.5,,103 km S 36° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0301_1521_B2.html
+2026-03-02 00:07:00,5.9,126.09,137.0,3.3,,049 km S 89° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0301_1607_B2.html
+2026-03-02 02:33:00,2.62,128.56,164.0,4.6,,466 km S 48° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0301_1833_B2.html
+2026-03-02 03:51:00,6.61,126.45,26.0,1.6,,042 km S 84° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0301_1951_B1.html
+2026-03-02 06:33:00,6.2,127.11,32.0,2.6,,119 km S 38° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0301_2233_B2.html
+2026-03-02 07:13:00,4.91,125.98,78.0,2.9,,083 km S 48° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0301_2313_B1.html
+2026-03-02 13:59:00,7.77,126.88,10.0,3.0,,042 km N 58° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0302_0559_B1.html
+2026-03-02 21:21:00,7.59,126.73,33.0,2.1,,018 km N 86° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0302_1321_B1.html
+2026-03-02 22:42:00,5.75,126.7,20.0,3.1,,118 km S 81° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0302_1442_B2.html
+2026-03-02 22:45:00,5.11,125.89,19.0,2.6,,061 km S 49° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0302_1445_B2.html
+2026-03-03 00:32:00,6.6,126.32,31.0,2.4,,028 km S 77° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0302_1632_B2.html
+2026-03-03 05:52:00,7.68,125.96,11.0,1.9,,004 km S 51° W of Montevista (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0302_2152_B1.html
+2026-03-03 07:52:00,6.3,126.6,46.0,3.6,,070 km S 56° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0302_2352_B2.html
+2026-03-03 15:28:00,7.45,126.6,24.0,2.5,,014 km N 18° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0303_0728_B2.html
+2026-03-03 19:25:00,4.24,127.19,22.0,3.8,,243 km S 54° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0303_1125_B2.html
+2026-03-04 03:24:00,7.89,126.82,13.0,4.3,,042 km N 75° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0303_1924_B3F.html
+2026-03-04 12:37:00,7.95,126.88,18.0,1.7,,050 km N 69° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0304_0437_B2.html
+2026-03-04 18:19:00,6.86,127.14,5.0,2.9,,077 km S 60° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0304_1019_B2.html
+2026-03-05 00:39:00,5.27,126.4,25.0,3.1,,105 km S 77° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0304_1639_B2.html
+2026-03-05 07:04:00,5.58,125.51,217.0,2.2,,012 km N 21° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0304_2304_B2.html
+2026-03-05 07:08:00,6.18,125.95,30.0,2.4,,028 km S 85° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0304_2308_B2.html
+2026-03-05 07:14:00,6.15,126.61,103.0,2.7,,081 km S 47° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0304_2314_B1.html
+2026-03-05 16:53:00,7.29,126.78,25.0,2.6,,028 km N 73° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0305_0853_B2.html
+2026-03-05 20:28:00,5.5,126.63,55.0,3.2,,119 km S 67° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0305_1228_B2.html
+2026-03-06 01:06:00,7.42,126.77,9.0,1.7,,024 km N 66° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0305_1706_B1.html
+2026-03-06 01:45:00,6.72,125.18,14.0,3.3,,004 km S 36° E of Magsaysay (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0305_1745_B2F.html
+2026-03-06 02:31:00,7.28,125.85,77.0,2.0,,010 km S 09° W of Maco (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0305_1831_B2.html
+2026-03-06 04:13:00,6.59,125.22,6.0,2.2,,005 km S 43° W of Kiblawan (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0305_2013_B2.html
+2026-03-06 09:10:00,6.93,126.66,131.0,2.6,,027 km S 60° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0306_0110_B1F.html
+2026-03-06 19:00:00,7.32,126.42,22.0,2.4,,018 km N 46° W of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0306_1100_B1F.html
+2026-03-06 19:31:00,7.47,127.01,22.0,2.0,,051 km S 77° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0306_1131_B2.html
+2026-03-06 21:05:00,6.11,126.02,18.0,2.5,,037 km S 74° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0306_1305_B2.html
+2026-03-06 21:51:00,7.58,126.87,52.0,2.0,,034 km N 89° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0306_1351_B1.html
+2026-03-06 22:41:00,6.15,126.49,39.0,2.7,,072 km S 39° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0306_1441_B2.html
+2026-03-07 03:54:00,6.7,126.3,44.0,2.8,,026 km N 77° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0306_195453_B1.html
+2026-03-07 03:57:00,8.02,127.06,2.0,1.8,,072 km N 69° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0306_1957_B1.html
+2026-03-07 10:47:00,6.5,126.87,86.0,2.6,,076 km S 37° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0307_0247_B2.html
+2026-03-07 11:58:00,7.38,126.7,29.0,2.5,,016 km N 68° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0307_0358_B2.html
+2026-03-07 13:57:00,6.99,126.68,54.0,4.8,,029 km S 32° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0307_055757_B2.html
+2026-03-07 15:08:00,6.04,126.24,143.0,2.9,,063 km S 74° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0307_0708_B2.html
+2026-03-07 15:22:00,6.84,126.33,16.0,3.2,,017 km S 47° E of City Of Mati (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0307_0722_B2.html
+2026-03-07 18:53:00,6.12,126.37,118.0,1.8,,067 km S 30° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0307_1053_B1.html
+2026-03-07 23:37:00,5.38,126.82,92.0,2.5,,143 km S 66° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0307_153748_B2.html
+2026-03-08 15:03:00,5.57,126.49,36.0,3.5,,101 km S 68° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0308_0703_B2.html
+2026-03-08 19:47:00,6.02,126.5,3.0,2.7,,084 km S 34° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0308_1147_B2.html
+2026-03-08 20:01:00,7.05,126.85,14.0,2.0,,039 km S 63° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0308_1201_B1F.html
+2026-03-09 11:26:00,6.31,126.88,30.0,3.6,,095 km S 30° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0309_0326_B2.html
+2026-03-10 07:42:00,7.75,127.07,12.0,2.6,,059 km N 71° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0309_2342_B2.html
+2026-03-10 12:42:00,7.47,126.72,15.0,2.8,,021 km S 57° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0310_0442_B2.html
+2026-03-10 19:48:00,7.73,126.52,28.0,2.1,,010 km S 48° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0310_1148_B2.html
+2026-03-10 20:08:00,7.99,126.23,17.0,2.1,,020 km N 51° W of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0310_1208_B1.html
+2026-03-10 20:24:00,7.4,125.89,38.0,1.7,,004 km N 44° E of Maco (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0310_1224_B2.html
+2026-03-10 23:29:00,7.62,126.78,27.0,2.6,,025 km N 78° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0310_1529_B2.html
+2026-03-11 01:33:00,3.21,125.56,73.0,3.9,,244 km S 03° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0310_1733_B2.html
+2026-03-11 02:35:00,6.82,126.28,29.0,1.4,,016 km S 26° E of City Of Mati (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0310_1835_B1.html
+2026-03-11 17:38:00,7.34,126.66,16.0,1.9,,020 km N 43° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0311_0938_B1F.html
+2026-03-12 06:00:00,5.49,125.29,19.0,2.3,,017 km N 58° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0311_2200_B1.html
+2026-03-12 14:56:00,6.87,126.77,9.0,3.0,,041 km S 61° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0312_0656_B2.html
+2026-03-12 20:05:00,2.99,123.46,444.0,4.2,,346 km S 39° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0312_1205_B2.html
+2026-03-13 00:54:00,7.62,126.57,30.0,2.0,,005 km N 11° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0312_1654_B1.html
+2026-03-13 02:55:00,6.15,125.91,116.0,2.3,,024 km S 78° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0312_1855_B2.html
+2026-03-13 02:58:00,5.66,126.8,17.0,3.0,,131 km S 78° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0312_1858_B2.html
+2026-03-13 05:54:00,5.7,125.75,94.0,2.5,,027 km S 26° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0312_2154_B2.html
+2026-03-13 08:08:00,6.22,126.19,18.0,2.9,,050 km S 15° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0313_0008_B2.html
+2026-03-13 08:53:00,6.69,126.69,135.0,1.9,,048 km S 34° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0313_0053_B1.html
+2026-03-13 10:22:00,7.2,126.85,30.0,2.5,,034 km S 88° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0313_0222_B2F.html
+2026-03-13 17:54:00,7.19,126.89,12.0,2.8,,039 km S 87° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0313_0954_B2.html
+2026-03-13 18:31:00,5.31,127.33,116.0,3.1,,204 km S 43° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0313_1031_B2.html
+2026-03-14 06:07:00,5.06,126.01,107.0,2.5,,075 km S 53° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0313_2207_B2.html
+2026-03-14 20:08:00,6.86,126.28,33.0,2.3,,012 km S 37° E of City Of Mati (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0314_1208_B2.html
+2026-03-15 00:37:00,7.07,126.89,2.0,2.6,,042 km S 68° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0314_1637_B2.html
+2026-03-15 01:34:00,7.31,126.79,6.0,3.5,,025 km S 85° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0314_1734_B2.html
+2026-03-15 01:58:00,7.33,126.6,12.0,1.7,,015 km N 25° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0314_1758_B2F.html
+2026-03-15 04:50:00,7.43,126.54,13.0,1.5,,011 km N 13° W of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0314_205047_B1.html
+2026-03-15 04:50:00,5.76,125.92,33.0,1.6,,035 km S 61° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0314_205014_B1.html
+2026-03-15 09:51:00,7.82,126.31,5.0,1.7,,009 km S 53° W of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0315_0151_B1.html
+2026-03-15 10:39:00,7.24,126.91,8.0,2.9,,041 km N 85° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0315_0239_B2.html
+2026-03-15 18:38:00,7.11,126.87,18.0,2.5,,038 km S 73° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0315_1038_B2F.html
+2026-03-16 03:13:00,6.58,125.71,148.0,2.3,,021 km N 31° E of Malita (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0315_1913_B2.html
+2026-03-16 05:02:00,6.67,126.1,6.0,1.5,,003 km N 66° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0315_2102_B1.html
+2026-03-16 23:06:00,6.14,126.2,20.0,2.3,,056 km S 84° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0316_1506_B2.html
+2026-03-16 23:26:00,5.82,127.18,23.0,3.4,,153 km S 53° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0316_1526_B2.html
+2026-03-16 23:47:00,5.08,126.82,91.0,2.4,,156 km S 74° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0316_1547_B1.html
+2026-03-17 06:53:00,7.25,126.75,24.0,4.0,,024 km N 81° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0316_2253_B2.html
+2026-03-17 16:40:00,5.39,126.63,71.0,3.9,,124 km S 62° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0317_0840_B2F.html
+2026-03-18 02:21:00,7.39,126.59,20.0,3.6,,007 km N 21° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0317_1821_B3.html
+2026-03-18 03:00:00,7.7,126.32,116.0,2.8,,017 km S 54° W of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0317_1900_B1.html
+2026-03-18 08:09:00,6.81,126.94,34.0,2.2,,060 km S 64° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0318_0009_B2.html
+2026-03-19 07:47:00,6.64,126.22,30.0,2.0,,016 km S 84° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0318_2347_B2.html
+2026-03-19 10:26:00,4.6,125.69,122.0,3.7,,095 km S 18° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0319_0226_B2.html
+2026-03-19 11:35:00,7.66,127.0,20.0,2.8,,049 km N 79° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0319_0335_B2.html
+2026-03-19 15:46:00,6.74,126.89,37.0,3.2,,060 km S 55° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0319_0746_B2.html
+2026-03-20 04:58:00,7.99,127.35,1.0,2.7,,098 km N 62° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0319_2058_B2.html
+2026-03-20 13:47:00,5.94,125.95,99.0,3.0,,040 km S 45° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0320_0547_B2.html
+2026-03-20 16:54:00,6.39,126.83,114.0,2.1,,084 km S 30° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0320_0854_B2.html
+2026-03-20 19:09:00,6.08,126.8,115.0,2.6,,102 km S 52° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0320_1109_B2.html
+2026-03-20 19:21:00,7.41,126.65,15.0,2.5,,012 km N 46° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0320_1121_B2.html
+2026-03-20 19:59:00,7.38,125.58,5.0,2.1,,014 km N 48° W of City Of Panabo (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0320_1159_B2.html
+2026-03-20 20:34:00,6.38,125.92,164.0,3.5,,035 km S 30° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0320_1234_B2.html
+2026-03-20 21:49:00,6.18,127.11,9.0,2.6,,117 km S 36° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0320_1349_B2.html
+2026-03-20 22:58:00,7.41,126.75,19.0,2.1,,023 km N 67° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0320_1458_B2.html
+2026-03-20 23:00:00,6.2,125.56,92.0,1.5,,015 km N 87° W of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0320_1500_B1.html
+2026-03-21 09:18:00,6.99,126.95,11.0,3.2,,051 km S 61° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0321_0118_B2F.html
+2026-03-21 13:13:00,4.32,125.58,114.0,3.0,,122 km S 08° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0321_0513_B2.html
+2026-03-21 17:35:00,7.92,126.79,29.0,1.8,,040 km N 70° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0321_0935_B2.html
+2026-03-21 20:18:00,7.02,126.79,17.0,2.5,,035 km S 53° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0321_1218_B2F.html
+2026-03-21 23:23:00,7.61,127.02,35.0,1.7,,050 km N 85° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0321_1523_B1.html
+2026-03-21 23:57:00,6.77,126.21,34.0,2.0,,019 km N 51° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0321_1557_B2.html
+2026-03-22 01:38:00,5.51,127.22,38.0,3.3,,179 km S 45° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0321_1738_B1.html
+2026-03-22 04:07:00,6.99,126.96,23.0,2.9,,053 km S 62° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0321_2007_B2.html
+2026-03-22 14:55:00,7.26,127.17,5.0,3.1,,067 km S 83° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0322_0655_B2.html
+2026-03-22 20:08:00,6.42,126.63,106.0,2.4,,067 km S 67° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0322_1208_B2.html
+2026-03-22 20:58:00,7.39,126.79,24.0,2.1,,026 km N 74° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0322_1258_B1.html
+2026-03-22 21:54:00,7.69,126.57,3.0,2.3,,015 km N 36° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0322_1354_B2.html
+2026-03-22 23:32:00,6.52,126.53,15.0,2.3,,053 km S 73° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0322_1532_B1.html
+2026-03-23 06:08:00,4.34,125.61,13.0,3.4,,121 km S 10° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0322_2208_B2.html
+2026-03-23 08:45:00,6.2,126.28,27.0,2.0,,055 km S 24° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0323_0045_B1.html
+2026-03-23 17:55:00,6.71,125.15,7.0,2.2,,005 km S 07° W of Magsaysay (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0323_0955_B2.html
+2026-03-23 22:43:00,7.29,126.22,14.0,2.1,,011 km S 75° E of Maragusan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0323_1443_B2.html
+2026-03-24 01:23:00,5.47,126.48,94.0,3.6,,104 km S 62° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0323_1723_B2.html
+2026-03-24 13:20:00,6.27,126.23,28.0,3.0,,046 km S 22° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0324_0520_B2.html
+2026-03-24 23:06:00,6.15,126.84,74.0,2.7,,101 km S 57° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0324_1506_B1.html
+2026-03-24 23:37:00,6.09,126.22,28.0,2.3,,059 km S 79° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0324_1537_B1.html
+2026-03-24 23:44:00,6.1,125.97,157.0,3.0,,027 km N 89° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0324_1544_B2.html
+2026-03-25 02:37:00,3.31,126.77,17.0,3.9,,354 km S 30° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0324_183745_B2.html
+2026-03-25 02:56:00,7.47,126.48,13.0,2.0,,015 km S 39° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0324_1856_B1.html
+2026-03-25 03:33:00,7.87,126.65,132.0,2.3,,024 km N 68° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0324_1933_B2.html
+2026-03-25 05:46:00,6.38,126.71,17.0,2.0,,076 km S 67° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0324_2146_B2.html
+2026-03-25 10:44:00,5.31,126.47,15.0,3.7,,107 km S 55° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0325_0244_B2.html
+2026-03-25 11:39:00,5.11,126.53,18.0,2.3,,125 km S 49° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0325_0339_B2.html
+2026-03-25 12:22:00,6.65,125.59,3.0,1.6,,016 km N 50° E of Santa Maria (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0325_0422_B1.html
+2026-03-25 12:28:00,4.18,126.29,112.0,2.1,,167 km S 35° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0325_0428_B1.html
+2026-03-25 19:48:00,7.88,127.14,22.0,1.8,,072 km N 63° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0325_1148_B2.html
+2026-03-26 01:56:00,7.95,126.46,3.0,1.7,,013 km N 46° E of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0325_1756_B2.html
+2026-03-26 05:17:00,7.83,126.94,7.0,2.6,,053 km N 86° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0325_2117_B2.html
+2026-03-26 09:36:00,7.67,125.98,34.0,1.8,,004 km S 19° W of Montevista (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0326_0136_B1.html
+2026-03-26 13:29:00,4.23,127.46,29.0,3.8,,260 km S 58° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0326_0529_B2.html
+2026-03-26 17:20:00,7.3,126.71,33.0,2.0,,016 km S 77° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0326_0920_B2.html
+2026-03-26 18:36:00,6.77,126.94,8.0,3.0,,063 km S 60° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0326_1036_B2.html
+2026-03-26 23:04:00,7.46,126.66,43.0,2.9,,017 km S 40° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0326_1504_B2.html
+2026-03-27 10:29:00,7.42,126.94,18.0,2.4,,043 km N 76° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0327_0229_B1.html
+2026-03-27 13:34:00,3.72,126.34,35.0,4.2,,213 km S 28° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0327_0534_B2.html
+2026-03-27 20:11:00,7.32,125.96,21.0,2.6,,012 km N 83° E of Mabini (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0327_1211_B2.html
+2026-03-27 20:26:00,7.69,127.35,33.0,1.7,,088 km N 82° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0327_1226_B2.html
+2026-03-28 03:51:00,6.04,126.72,29.0,2.3,,100 km S 47° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0327_1951_B2.html
+2026-03-28 06:26:00,7.93,126.44,15.0,1.7,,010 km N 46° E of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0327_2226_B2.html
+2026-03-28 07:45:00,7.37,126.47,124.0,3.4,,012 km N 66° W of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0327_2345_B2.html
+2026-03-28 10:56:00,8.0,126.85,13.0,1.8,,049 km N 62° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0328_0256_B1.html
+2026-03-28 11:33:00,5.62,125.67,189.0,4.9,,028 km N 53° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0328_0333_B3F.html
+2026-03-28 12:44:00,5.2,126.81,11.0,3.4,,152 km S 58° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0328_0444_B2.html
+2026-03-28 13:16:00,7.94,127.04,4.0,2.5,,066 km N 52° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0328_0516_B1.html
+2026-03-28 15:09:00,7.61,127.34,14.0,4.2,,086 km N 87° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0328_0709_B3.html
+2026-03-28 18:57:00,6.76,127.0,6.0,3.6,,069 km S 62° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0328_1057_B2.html
+2026-03-29 01:54:00,7.31,126.86,16.0,2.2,,037 km N 73° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0328_1754_B1F.html
+2026-03-29 05:17:00,5.96,125.83,148.0,2.6,,021 km N 76° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0328_2117_B2.html
+2026-03-29 14:16:00,6.64,125.91,44.0,2.5,,018 km S 85° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_0616_B2.html
+2026-03-29 14:18:00,7.52,125.77,57.0,2.1,,003 km S 40° E of Asuncion (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_0618_B2.html
+2026-03-29 14:39:00,6.5,126.47,37.0,2.6,,047 km S 69° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_0639_B2.html
+2026-03-29 15:39:00,7.7,127.0,15.0,2.2,,051 km N 75° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_0739_B1.html
+2026-03-29 23:49:00,3.27,125.64,18.0,3.9,,231 km S 05° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_1549_B2.html
+2026-03-30 00:26:00,6.87,125.93,19.0,1.7,,010 km S 70° W of Lupon (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_1626_B1.html
+2026-03-30 00:36:00,6.29,126.97,45.0,1.9,,102 km S 34° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_163640_B1.html
+2026-03-30 01:47:00,7.27,126.82,17.0,2.6,,029 km S 77° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_1747_B2.html
+2026-03-30 03:07:00,5.74,125.68,50.0,3.9,,019 km S 12° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_1907_B2F.html
+2026-03-30 03:48:00,6.72,127.48,166.0,2.3,,118 km S 63° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_1948_B1.html
+2026-03-30 04:14:00,7.23,126.27,26.0,2.8,,019 km N 32° W of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_2014_B2.html
+2026-03-30 05:07:00,5.67,126.19,133.0,1.9,,066 km S 66° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0329_2107_B1.html
+2026-03-30 09:47:00,7.35,127.18,4.0,2.6,,068 km N 88° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0330_0147_B2.html
+2026-03-30 13:50:00,7.15,126.56,105.0,3.2,,007 km S 21° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0330_0550_B2.html
+2026-03-30 20:25:00,7.43,127.13,3.0,2.1,,064 km N 80° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0330_1225_B1.html
+2026-03-30 22:46:00,7.0,126.01,20.0,2.5,,004 km North of Banaybanay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0330_144656_B2.html
+2026-03-31 01:03:00,7.43,126.62,13.0,2.5,,012 km N 27° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0330_1703_B2.html
+2026-03-31 04:15:00,5.04,126.22,111.0,3.2,,095 km S 60° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0330_2015_B2.html
+2026-03-31 05:33:00,7.26,126.64,28.0,2.9,,011 km S 50° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0330_2133_B2.html
+2026-03-31 07:39:00,5.56,126.98,13.0,2.6,,153 km S 75° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0330_2339_B1.html
+2026-03-31 09:59:00,4.94,124.97,22.0,3.2,,072 km S 44° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0331_0159_B2.html
+2026-03-31 11:37:00,2.96,126.52,47.0,4.3,,297 km S 24° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0331_0337_B2.html
+2026-03-31 21:06:00,7.69,126.46,20.0,1.8,,011 km S 06° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0331_1306_B1.html
+2026-04-01 00:24:00,7.18,125.85,48.0,1.8,,008 km N 44° W of Pantukan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0331_1624_B2.html
+2026-04-01 06:35:00,7.52,127.3,26.0,2.7,,082 km S 86° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0331_2235_B2.html
+2026-04-01 06:44:00,7.72,125.42,11.0,2.2,,020 km N 62° W of Talaingod (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/March/2026_0331_2244_B2.html
+2026-04-01 09:59:00,5.84,125.9,137.0,1.9,,030 km S 74° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0401_0159_B1.html
+2026-04-01 10:59:00,7.26,127.15,21.0,2.5,,065 km S 83° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0401_0259_B2.html
+2026-04-01 13:01:00,4.72,126.54,12.0,4.2,,145 km S 55° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0401_0501_B2.html
+2026-04-01 17:44:00,3.67,125.9,40.0,3.6,,200 km S 15° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0401_0944_B1.html
+2026-04-01 20:22:00,7.77,125.44,24.0,2.3,,021 km N 43° W of Talaingod (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0401_1222_B2.html
+2026-04-01 23:33:00,5.19,125.68,113.0,2.5,,038 km S 50° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0401_1533_B1.html
+2026-04-02 01:20:00,6.38,125.9,151.0,2.7,,032 km S 84° E of Malita (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0401_1720_B2.html
+2026-04-02 02:29:00,3.49,126.81,84.0,3.6,,263 km S 36° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0401_1829_B2.html
+2026-04-02 03:32:00,4.72,125.67,20.0,2.2,,081 km S 20° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0401_1932_B1.html
+2026-04-02 11:49:00,3.37,126.7,94.0,4.2,,267 km S 32° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0402_0349_B2.html
+2026-04-02 15:58:00,6.14,125.55,97.0,2.8,,028 km N 22° W of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0402_0758_B2.html
+2026-04-02 21:43:00,7.65,125.43,16.0,2.4,,016 km N 83° W of Talaingod (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0402_1343_B2.html
+2026-04-03 01:43:00,5.26,126.93,35.0,3.8,,164 km S 82° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0402_1743_B2.html
+2026-04-03 02:19:00,5.76,125.46,23.0,2.3,,027 km S 50° W of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0402_1819_B1.html
+2026-04-03 02:40:00,7.45,126.8,33.0,1.9,,029 km N 63° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0402_1840_B1.html
+2026-04-03 05:13:00,6.8,127.49,34.0,2.0,,115 km S 67° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0402_2113_B1.html
+2026-04-03 07:07:00,7.38,126.7,33.0,1.6,,016 km N 68° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0402_2307_B2.html
+2026-04-03 12:11:00,6.92,126.68,13.0,2.5,,029 km S 61° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0403_0411_B2.html
+2026-04-03 15:29:00,6.54,126.58,34.0,1.9,,058 km S 15° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0403_0729_B2.html
+2026-04-03 22:01:00,7.83,126.36,2.0,2.5,,005 km S 15° W of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0403_140139_B2.html
+2026-04-03 23:47:00,7.09,127.0,2.0,2.8,,052 km S 75° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0403_1547_B2F.html
+2026-04-04 02:40:00,7.62,126.5,24.0,2.9,,008 km N 53° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0403_1840_B2.html
+2026-04-04 03:15:00,5.31,126.7,71.0,3.2,,135 km S 60° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0403_1915_B2.html
+2026-04-04 03:52:00,7.62,126.59,29.0,2.1,,006 km N 27° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0403_1952_B2.html
+2026-04-04 04:12:00,5.96,126.31,83.0,2.5,,073 km S 69° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0403_2012_B1.html
+2026-04-04 08:10:00,6.98,126.72,139.0,2.4,,031 km S 76° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_0010_B2.html
+2026-04-04 13:41:00,7.09,126.87,19.0,2.5,,039 km S 69° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_0541_B2F.html
+2026-04-04 14:03:00,7.15,127.0,24.0,2.4,,052 km S 82° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_0603_B2F.html
+2026-04-04 18:34:00,4.46,126.39,54.0,6.0,,152 km S 42° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1034_B4F.html
+2026-04-04 19:07:00,4.83,126.3,32.0,2.9,,116 km S 52° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1107_B3.html
+2026-04-04 20:07:00,4.92,126.06,2.0,3.4,,089 km S 47° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1207_B2.html
+2026-04-04 20:35:00,5.03,126.3,7.0,2.4,,103 km S 62° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1235_B2.html
+2026-04-04 20:37:00,4.93,126.11,19.0,2.7,,093 km S 50° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1237_B1.html
+2026-04-04 22:07:00,6.18,126.16,122.0,2.4,,051 km S 88° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1407_B2.html
+2026-04-04 22:33:00,6.55,126.61,34.0,3.1,,058 km S 18° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1433_B2.html
+2026-04-04 22:50:00,5.12,126.22,11.0,3.4,,090 km S 66° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1450_B2.html
+2026-04-05 00:05:00,7.92,126.42,5.0,1.6,,007 km N 38° E of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1605_B1.html
+2026-04-05 00:48:00,6.37,126.55,29.0,3.1,,062 km S 59° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1648_B1.html
+2026-04-05 01:38:00,5.52,126.6,10.0,2.7,,113 km S 68° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_173829_B2.html
+2026-04-05 02:35:00,7.74,126.54,30.0,2.1,,011 km S 61° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1835_B2.html
+2026-04-05 02:38:00,7.3,127.26,15.0,2.7,,076 km S 87° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_1838_B2.html
+2026-04-05 04:00:00,7.26,127.08,8.0,3.4,,057 km S 83° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_2000_B2.html
+2026-04-05 05:32:00,6.5,126.53,24.0,3.0,,053 km S 71° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_2132_B2.html
+2026-04-05 05:58:00,6.73,126.94,17.0,2.0,,069 km S 40° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0404_2158_B2F.html
+2026-04-05 08:46:00,6.88,125.46,25.0,2.5,,008 km N 44° E of Santa Cruz (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0405_0046_B1.html
+2026-04-05 12:24:00,7.35,127.04,43.0,1.9,,052 km N 87° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0405_0424_B1.html
+2026-04-05 20:23:00,6.09,126.43,112.0,2.5,,089 km N 77° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0405_1223_B2.html
+2026-04-05 21:48:00,7.36,127.37,2.0,2.7,,089 km N 88° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0405_1348_B1.html
+2026-04-06 00:36:00,7.4,126.72,19.0,1.9,,019 km N 64° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0405_1636_B1.html
+2026-04-06 00:54:00,6.14,126.03,112.0,2.7,,037 km S 80° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0405_1654_B2.html
+2026-04-06 02:09:00,5.04,127.44,182.0,4.0,,224 km S 78° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0405_1809_B2.html
+2026-04-06 02:51:00,7.4,126.71,17.0,2.0,,018 km N 63° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0405_1851_B1.html
+2026-04-06 04:15:00,6.14,126.49,28.0,3.3,,073 km S 39° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0405_2015_B1.html
+2026-04-06 08:06:00,5.67,126.76,43.0,2.5,,127 km S 78° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0406_0006_B1.html
+2026-04-06 10:08:00,6.43,125.76,2.0,2.8,,017 km N 84° E of Malita (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0406_0208_B2.html
+2026-04-06 20:04:00,6.01,126.05,149.0,2.6,,045 km S 62° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0406_1204_B2.html
+2026-04-06 23:54:00,7.81,127.45,10.0,2.5,,097 km N 73° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0406_1554_B1.html
+2026-04-07 00:35:00,4.12,126.39,77.0,3.4,,179 km S 37° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0406_1635_B1.html
+2026-04-07 01:14:00,3.63,128.15,5.0,3.9,,361 km S 55° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0406_1714_B2.html
+2026-04-07 02:16:00,6.51,125.96,1.0,1.5,,020 km S 39° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0406_181653_B1.html
+2026-04-07 04:37:00,7.35,126.93,19.0,2.8,,040 km N 86° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0406_2037_B2.html
+2026-04-07 08:09:00,7.34,126.84,32.0,2.3,,030 km N 87° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0407_0009_B1.html
+2026-04-07 10:14:00,7.76,126.88,28.0,1.4,,041 km N 60° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0407_0214_B1.html
+2026-04-07 15:51:00,6.42,125.64,190.0,4.0,,003 km N 80° E of Malita (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0407_0751_B2F.html
+2026-04-07 22:08:00,7.54,126.52,34.0,1.9,,006 km S 52° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0407_1408_B1.html
+2026-04-08 01:00:00,5.08,126.22,9.0,3.3,,094 km S 63° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0407_1700_B2.html
+2026-04-08 02:07:00,8.1,127.4,13.0,2.7,,109 km N 58° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0407_1807_B1.html
+2026-04-08 03:20:00,7.37,126.64,21.0,3.1,,009 km N 62° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0407_1920_B2.html
+2026-04-08 03:21:00,6.66,126.12,19.0,1.8,,005 km N 78° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0407_1921_B1.html
+2026-04-08 11:05:00,6.33,126.87,51.0,2.3,,092 km S 30° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_0305_B1.html
+2026-04-08 13:56:00,7.31,126.83,8.0,3.4,,029 km S 85° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_0556_B2.html
+2026-04-08 16:32:00,4.82,126.24,7.0,3.0,,111 km S 50° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_0832_B2.html
+2026-04-08 22:37:00,7.19,127.19,21.0,2.3,,072 km S 88° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_1437_B2F.html
+2026-04-08 22:52:00,7.63,126.64,23.0,4.0,,011 km N 56° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_1452_B3.html
+2026-04-08 22:53:00,7.59,126.71,19.0,2.5,,016 km N 82° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_1453_B2.html
+2026-04-08 23:16:00,7.58,126.54,17.0,3.3,,002 km N 84° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_1516_B2.html
+2026-04-09 01:43:00,4.87,126.23,66.0,3.0,,107 km S 52° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_1743_B2.html
+2026-04-09 03:21:00,6.75,126.98,2.0,2.3,,071 km S 44° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_1921_B1F.html
+2026-04-09 04:55:00,5.99,126.34,126.0,3.2,,075 km S 72° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0408_2055_B2.html
+2026-04-09 20:07:00,6.79,125.08,15.0,2.6,,009 km N 66° W of Magsaysay (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0409_1207_B2.html
+2026-04-09 23:07:00,6.18,126.0,79.0,4.5,,034 km S 88° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0409_1507_B3F.html
+2026-04-10 01:39:00,6.23,125.93,46.0,2.4,,026 km N 83° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0409_1739_B2.html
+2026-04-10 02:30:00,7.56,126.59,25.0,2.3,,004 km S 60° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0409_1830_B1.html
+2026-04-10 08:34:00,6.37,126.57,53.0,2.4,,063 km S 61° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_0034_B1.html
+2026-04-10 08:56:00,7.68,126.45,25.0,1.9,,013 km S 05° W of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_0056_B2.html
+2026-04-10 10:28:00,7.26,126.64,6.0,2.3,,011 km S 47° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_0228_B2.html
+2026-04-10 15:01:00,4.74,126.29,42.0,3.4,,121 km S 52° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_0701_B2.html
+2026-04-10 15:21:00,4.91,126.25,8.0,2.8,,107 km S 59° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_0721_B2.html
+2026-04-10 15:25:00,6.35,126.78,36.0,2.3,,085 km S 66° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_0725_B1.html
+2026-04-10 15:56:00,7.3,126.79,9.0,3.3,,025 km S 84° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_0756_B1.html
+2026-04-10 20:48:00,7.73,127.0,10.0,2.2,,051 km N 71° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_1248_B2.html
+2026-04-11 00:02:00,6.36,126.7,39.0,2.5,,077 km S 65° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_1602_B2.html
+2026-04-11 02:55:00,7.34,126.66,39.0,2.0,,020 km N 44° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_1855_B2.html
+2026-04-11 02:58:00,7.09,126.72,11.0,1.8,,024 km S 56° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_1858_B1.html
+2026-04-11 04:02:00,7.94,126.62,69.0,2.2,,025 km N 47° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_2002_B1.html
+2026-04-11 05:54:00,6.73,127.16,19.0,2.9,,086 km S 66° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0410_215428_B2.html
+2026-04-11 09:25:00,5.73,126.13,9.0,2.9,,058 km S 69° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0411_0125_B2.html
+2026-04-11 13:06:00,7.46,126.98,31.0,2.2,,048 km S 74° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0411_0506_B2.html
+2026-04-11 19:58:00,6.28,126.0,119.0,2.5,,035 km N 76° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0411_1158_B2.html
+2026-04-11 22:35:00,7.66,126.21,33.0,1.8,,014 km S 84° E of Compostela (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0411_1435_B1.html
+2026-04-12 00:18:00,5.69,125.82,188.0,2.1,,031 km S 39° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0411_161851_B1.html
+2026-04-12 00:18:00,5.08,125.26,11.0,2.6,,041 km S 25° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0411_161807_B1.html
+2026-04-12 06:01:00,5.07,126.8,31.0,3.1,,154 km S 73° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0411_2201_B2.html
+2026-04-12 07:35:00,5.96,125.71,180.0,2.5,,009 km N 58° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0411_2335_B2.html
+2026-04-12 18:50:00,6.99,125.82,14.0,3.7,,015 km S 49° E of Island Garden City Of Samal (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1050_B2F.html
+2026-04-12 19:03:00,7.03,125.85,21.0,2.0,,012 km S 27° W of Pantukan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1103_B2.html
+2026-04-12 22:28:00,6.76,126.66,20.0,2.3,,039 km S 36° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1428_B2.html
+2026-04-12 23:08:00,5.3,125.3,22.0,3.3,,018 km S 47° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1508_B2.html
+2026-04-12 23:59:00,5.33,125.27,20.0,2.8,,020 km S 61° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1559_B2.html
+2026-04-13 00:31:00,7.35,125.85,23.0,1.6,,003 km S 31° W of Maco (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1631_B1.html
+2026-04-13 01:15:00,5.08,125.05,295.0,3.3,,055 km S 48° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1715_B2.html
+2026-04-13 01:31:00,6.8,125.09,17.0,2.1,,009 km N 56° W of Magsaysay (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1731_B2.html
+2026-04-13 02:15:00,7.38,126.6,15.0,3.0,,007 km N 29° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1815_B2.html
+2026-04-13 03:11:00,6.99,125.9,21.0,2.0,,012 km N 78° W of Banaybanay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1911_B2.html
+2026-04-13 03:18:00,7.31,127.07,21.0,2.1,,056 km S 88° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_1918_B1.html
+2026-04-13 04:18:00,6.5,125.88,137.0,2.3,,028 km S 51° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_2018_B2.html
+2026-04-13 05:42:00,6.15,125.7,96.0,2.3,,005 km S 12° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0412_2142_B1.html
+2026-04-13 09:45:00,6.06,126.54,37.0,2.8,,084 km S 38° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_0145_B1.html
+2026-04-13 10:57:00,7.44,126.72,30.0,2.5,,021 km N 53° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_0257_B2.html
+2026-04-13 14:05:00,5.94,126.35,20.0,2.7,,078 km N 88° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_0605_B2.html
+2026-04-13 15:00:00,5.58,126.67,78.0,2.4,,117 km S 72° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_0700_B1.html
+2026-04-13 16:15:00,4.76,125.15,7.0,2.4,,078 km S 23° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_0815_B1.html
+2026-04-13 18:19:00,6.48,125.71,3.0,2.0,,013 km N 58° E of Malita (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_1019_B2.html
+2026-04-13 18:30:00,7.82,126.49,33.0,1.6,,005 km N 51° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_1030_B1.html
+2026-04-13 18:41:00,4.36,126.31,77.0,2.9,,152 km S 40° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_1041_B2.html
+2026-04-14 01:45:00,5.37,125.17,21.0,2.3,,028 km S 80° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_1745_B2.html
+2026-04-14 01:52:00,6.43,126.49,124.0,2.6,,052 km S 62° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_1752_B2.html
+2026-04-14 04:44:00,6.54,125.83,143.0,2.5,,028 km N 59° E of Malita (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0413_2044_B2.html
+2026-04-14 08:05:00,5.25,125.52,202.0,2.8,,021 km S 30° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0414_0005_B2.html
+2026-04-14 09:38:00,7.32,126.87,9.0,2.1,,034 km S 89° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0414_0138_B2.html
+2026-04-14 16:42:00,7.29,126.79,22.0,1.8,,029 km N 73° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0414_0842_B1F.html
+2026-04-15 02:00:00,7.59,126.68,25.0,1.8,,013 km N 82° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0414_1800_B2.html
+2026-04-15 02:03:00,6.3,126.39,119.0,2.3,,053 km S 42° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0414_1803_B2.html
+2026-04-15 03:35:00,4.72,125.97,73.0,2.9,,098 km S 39° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0414_193532_B2.html
+2026-04-15 04:05:00,3.94,126.86,17.0,3.8,,228 km S 44° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0414_2005_B2.html
+2026-04-15 04:10:00,7.73,126.88,8.0,2.5,,039 km N 63° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0414_2010_B2.html
+2026-04-15 07:13:00,5.71,126.85,156.0,3.0,,136 km S 81° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0414_2313_B2.html
+2026-04-15 08:51:00,7.93,126.44,33.0,1.9,,010 km N 48° E of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0415_0051_B1.html
+2026-04-15 11:45:00,5.27,125.97,28.0,2.6,,060 km S 68° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0415_0345_B1.html
+2026-04-15 21:12:00,6.99,127.06,6.0,2.3,,063 km S 67° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0415_1312_B1.html
+2026-04-15 21:26:00,7.38,126.56,2.0,3.0,,006 km N 06° W of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0415_1326_B2.html
+2026-04-16 01:06:00,7.45,126.7,29.0,3.3,,020 km S 49° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0415_1706_B2.html
+2026-04-16 04:57:00,7.38,126.57,32.0,2.4,,005 km North of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0415_2057_B2.html
+2026-04-16 08:02:00,8.03,127.18,22.0,3.7,,084 km N 72° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0416_0002_B2.html
+2026-04-16 11:00:00,5.22,126.41,8.0,2.7,,107 km S 75° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0416_0300_B1.html
+2026-04-16 13:45:00,7.71,125.37,3.0,3.7,,024 km N 70° W of Talaingod (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0416_0545_B3F.html
+2026-04-16 14:57:00,5.63,125.87,81.0,2.7,,040 km S 39° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0416_0657_B2.html
+2026-04-17 00:34:00,4.75,124.97,23.0,3.4,,089 km S 34° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0416_163413_B2.html
+2026-04-17 00:34:00,7.63,126.1,34.0,1.6,,004 km S 27° E of Compostela (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0416_163405_B1.html
+2026-04-17 01:42:00,7.2,126.95,3.0,3.7,,045 km S 72° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0416_174209_B2.html
+2026-04-17 02:14:00,7.14,127.03,13.0,1.9,,054 km S 82° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0416_1814_B1.html
+2026-04-17 06:20:00,7.53,126.48,131.0,2.4,,010 km S 61° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0416_2220_B2.html
+2026-04-17 11:32:00,5.6,125.68,149.0,2.2,,027 km N 58° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0417_0332_B1.html
+2026-04-17 16:17:00,5.59,126.22,35.0,3.0,,073 km S 60° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0417_081720_B2.html
+2026-04-17 22:10:00,6.47,125.91,125.0,2.2,,027 km S 40° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0417_1410_B2.html
+2026-04-18 00:32:00,4.72,125.13,45.0,3.0,,083 km S 23° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0417_1632_B2.html
+2026-04-18 05:39:00,5.91,125.7,133.0,2.5,,006 km S 82° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0417_2139_B2.html
+2026-04-18 16:45:00,6.47,126.05,149.0,3.9,,020 km S 06° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0418_0845_B2.html
+2026-04-18 20:30:00,5.56,125.6,214.0,3.7,,017 km N 57° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0418_1230_B2.html
+2026-04-19 01:08:00,5.33,126.1,78.0,2.1,,071 km S 77° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0418_1708_B1.html
+2026-04-19 01:52:00,6.47,126.75,5.0,2.3,,072 km S 27° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0418_1752_B1.html
+2026-04-19 03:37:00,5.45,125.24,12.0,2.3,,020 km N 80° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0418_1937_B1.html
+2026-04-19 06:15:00,5.29,126.72,89.0,4.0,,137 km S 60° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0418_2215_B2.html
+2026-04-19 11:39:00,5.44,125.84,65.0,2.7,,041 km S 85° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0419_0339_B1.html
+2026-04-19 13:41:00,6.8,127.7,14.0,3.2,,135 km S 71° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0419_0541_B2.html
+2026-04-20 02:35:00,3.51,126.72,26.0,4.6,,255 km S 34° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0419_1835_B2.html
+2026-04-20 04:41:00,5.65,125.33,24.0,3.2,,028 km N 21° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0419_2041_B2.html
+2026-04-20 10:41:00,6.91,126.7,99.0,1.8,,032 km S 61° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_0241_B1.html
+2026-04-20 12:23:00,6.08,126.2,137.0,2.7,,058 km S 77° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_0423_B2.html
+2026-04-20 14:42:00,5.48,126.62,62.0,2.5,,118 km S 66° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_0642_B1.html
+2026-04-20 15:22:00,7.74,127.18,25.0,2.4,,070 km N 75° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_0722_B2.html
+2026-04-21 01:55:00,3.55,125.9,172.0,4.1,,213 km S 14° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_1755_B2.html
+2026-04-21 03:20:00,6.03,126.39,137.0,3.1,,077 km S 27° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_1920_B2.html
+2026-04-21 03:39:00,6.07,126.33,35.0,2.4,,071 km S 24° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_1939_B2.html
+2026-04-21 06:42:00,5.64,126.64,90.0,2.9,,114 km S 75° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_2242_B2.html
+2026-04-21 06:52:00,5.18,125.95,124.0,2.6,,062 km S 58° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_2252_B2.html
+2026-04-21 07:20:00,5.74,126.03,101.0,2.8,,047 km S 66° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0420_2320_B2.html
+2026-04-21 10:19:00,5.4,127.14,33.0,3.5,,175 km S 71° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0421_0219_B2.html
+2026-04-21 10:24:00,6.9,126.23,16.0,2.5,,006 km S 11° E of City Of Mati (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0421_0224_B2.html
+2026-04-21 12:56:00,4.85,124.47,36.0,2.5,,122 km S 60° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0421_0456_B1.html
+2026-04-21 14:36:00,6.61,125.21,8.0,2.3,,005 km S 69° W of Kiblawan (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0421_0636_B1.html
+2026-04-21 18:07:00,7.63,125.6,27.0,2.2,,003 km N 86° E of Talaingod (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0421_1007_B1.html
+2026-04-22 00:01:00,5.43,126.06,119.0,2.4,,065 km S 86° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0421_1601_B2.html
+2026-04-22 02:27:00,7.81,126.13,35.0,1.6,,008 km S 82° E of Monkayo (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0421_1827_B1.html
+2026-04-22 02:58:00,6.62,126.74,48.0,2.9,,058 km S 34° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0421_1858_B2.html
+2026-04-22 06:58:00,7.37,126.3,35.0,2.2,,020 km N 72° E of Maragusan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0421_2258_B1.html
+2026-04-22 08:38:00,6.01,126.36,80.0,2.5,,076 km S 74° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_0038_B1.html
+2026-04-22 09:26:00,6.55,126.37,21.0,3.1,,035 km S 71° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_0126_B1.html
+2026-04-22 09:31:00,4.41,125.85,134.0,3.0,,121 km S 23° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_0131_B2.html
+2026-04-22 09:33:00,5.77,126.62,32.0,3.0,,110 km S 81° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_0133_B1.html
+2026-04-22 15:59:00,7.23,126.37,10.0,2.5,,019 km N 84° W of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_0759_B2.html
+2026-04-22 16:00:00,7.36,126.7,10.0,1.8,,015 km N 77° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_0800_B1.html
+2026-04-22 20:28:00,7.24,126.75,21.0,2.0,,023 km S 66° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_1228_B2.html
+2026-04-22 22:07:00,5.29,124.91,16.0,2.6,,059 km S 77° W of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_1407_B1.html
+2026-04-22 22:38:00,5.98,125.81,125.0,2.4,,020 km N 67° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_1438_B1.html
+2026-04-23 01:48:00,5.28,126.77,24.0,3.6,,143 km S 60° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_1748_B2.html
+2026-04-23 02:00:00,6.38,125.49,6.0,1.9,,014 km S 73° W of Malita (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0422_1800_B1.html
+2026-04-23 14:00:00,5.83,126.81,86.0,2.6,,122 km S 42° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0423_0600_B1.html
+2026-04-23 17:39:00,7.65,126.52,21.0,2.2,,010 km N 31° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0423_0939_B1.html
+2026-04-23 18:08:00,7.22,126.79,22.0,2.4,,027 km N 87° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0423_1008_B2.html
+2026-04-23 20:51:00,7.64,126.01,32.0,1.4,,006 km N 43° E of Nabunturan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0423_1251_B1.html
+2026-04-24 07:13:00,7.45,125.76,73.0,1.9,,007 km S 88° E of Braulio E. Dujali (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0423_2313_B1.html
+2026-04-24 09:48:00,6.42,126.01,123.0,2.4,,027 km S 15° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_0148_B2.html
+2026-04-24 13:37:00,7.91,126.7,59.0,1.4,,029 km N 64° E of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_0537_B1.html
+2026-04-24 21:16:00,7.11,126.82,4.0,3.9,,033 km S 70° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1316_B2.html
+2026-04-24 21:33:00,7.28,126.74,23.0,2.3,,020 km S 73° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1333_B1.html
+2026-04-24 22:32:00,7.82,126.42,17.0,1.7,,005 km N 49° W of Cateel (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1432_B1.html
+2026-04-24 22:49:00,7.2,126.62,12.0,2.9,,009 km S 82° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1449_B2.html
+2026-04-24 23:42:00,7.21,126.54,3.0,2.3,,000 km N 63° W of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1542_B1.html
+2026-04-25 00:24:00,6.65,126.09,41.0,3.5,,002 km S 74° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1624_B2.html
+2026-04-25 01:33:00,7.86,126.36,13.0,2.3,,002 km S 63° W of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1733_B1.html
+2026-04-25 02:33:00,6.85,126.37,32.0,2.5,,024 km S 21° W of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1833_B2.html
+2026-04-25 03:17:00,6.52,127.01,20.0,2.0,,085 km S 47° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1917_B1.html
+2026-04-25 03:39:00,5.1,126.1,27.0,2.8,,081 km S 59° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1939_B1.html
+2026-04-25 03:49:00,7.03,126.92,19.0,2.0,,046 km S 64° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_1949_B2.html
+2026-04-25 04:49:00,5.91,126.19,60.0,2.6,,060 km S 90° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_2049_B2.html
+2026-04-25 07:50:00,6.9,126.65,155.0,3.0,,027 km S 54° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0424_2350_B2.html
+2026-04-25 08:30:00,7.17,126.98,21.0,3.0,,049 km S 84° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0425_0030_B2.html
+2026-04-25 12:27:00,7.16,126.64,5.0,2.6,,018 km S 47° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0425_0427_B2.html
+2026-04-25 16:56:00,6.85,126.24,11.0,2.6,,012 km S 15° E of City Of Mati (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0425_0856_B1.html
+2026-04-26 02:00:00,7.37,126.3,32.0,2.3,,020 km N 74° E of Maragusan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0425_1800_B1.html
+2026-04-26 03:58:00,7.72,126.55,27.0,2.1,,016 km N 03° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0425_1958_B2.html
+2026-04-26 15:16:00,6.81,126.93,189.0,2.8,,059 km S 63° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0426_0716_B2.html
+2026-04-26 15:20:00,2.76,126.76,145.0,4.4,,329 km S 27° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0426_0720_B2.html
+2026-04-26 17:54:00,5.86,126.28,74.0,2.7,,071 km S 86° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0426_0954_B2.html
+2026-04-26 18:27:00,5.38,127.49,109.0,3.5,,211 km S 48° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0426_1027_B2.html
+2026-04-26 20:47:00,6.87,126.67,17.0,2.4,,032 km S 51° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0426_1247_B2.html
+2026-04-26 21:24:00,7.64,126.61,13.0,2.2,,009 km N 32° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0426_1324_B1.html
+2026-04-26 21:25:00,5.87,126.7,26.0,3.4,,111 km S 39° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0426_1325_B2.html
+2026-04-27 01:18:00,7.4,126.57,119.0,2.7,,008 km N 06° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0426_1718_B2.html
+2026-04-27 03:32:00,7.41,126.73,36.0,1.9,,020 km N 64° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0426_1932_B1.html
+2026-04-27 08:31:00,6.14,127.19,12.0,3.7,,130 km S 39° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_0031_B2.html
+2026-04-27 08:35:00,7.27,127.06,11.0,3.1,,055 km S 83° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_0035_B2.html
+2026-04-27 09:35:00,7.88,127.09,13.0,2.0,,067 km N 60° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_0135_B1.html
+2026-04-27 11:12:00,5.9,126.33,119.0,2.4,,076 km S 89° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_0312_B2.html
+2026-04-27 11:16:00,6.16,126.5,23.0,2.0,,072 km S 41° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_0316_B1.html
+2026-04-27 12:49:00,7.32,127.07,9.0,2.1,,056 km S 89° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_0449_B2.html
+2026-04-27 14:33:00,7.31,126.83,21.0,2.6,,029 km S 85° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_0633_B2.html
+2026-04-27 20:44:00,7.05,126.95,13.0,3.1,,048 km S 69° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_1244_B2.html
+2026-04-27 21:43:00,7.06,127.04,10.0,2.9,,058 km S 73° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_1343_B2.html
+2026-04-28 01:16:00,7.14,126.54,20.0,2.4,,008 km S 02° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_1716_B2.html
+2026-04-28 01:36:00,7.19,125.5,21.0,3.2,,021 km S 62° W of City Of Panabo (Davao Del Norte),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0427_1736_B2F.html
+2026-04-28 09:33:00,5.1,126.19,4.0,2.1,,089 km S 62° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_0133_B1.html
+2026-04-28 10:52:00,6.43,127.12,26.0,2.6,,101 km S 47° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_0252_B1.html
+2026-04-28 12:07:00,7.61,125.92,40.0,1.8,,006 km N 79° W of Nabunturan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_0407_B1.html
+2026-04-28 15:45:00,2.4,127.22,23.0,3.3,,388 km S 31° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_0745_B2.html
+2026-04-28 15:52:00,7.28,126.89,20.0,3.5,,037 km S 82° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_0752_B2.html
+2026-04-28 18:22:00,6.28,125.99,8.0,2.4,,034 km N 74° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_102255_B2.html
+2026-04-28 20:47:00,5.88,126.76,22.0,3.3,,114 km S 42° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_1247_B2.html
+2026-04-28 21:21:00,7.19,125.98,42.0,1.7,,012 km N 56° E of Pantukan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_1321_B2.html
+2026-04-29 02:40:00,7.46,126.84,33.0,1.8,,034 km S 68° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_1840_B1.html
+2026-04-29 03:08:00,6.04,126.62,3.0,3.4,,091 km S 42° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_1908_B2.html
+2026-04-29 06:10:00,6.66,125.22,23.0,2.4,,006 km S 02° W of Matanao (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0428_2210_B2.html
+2026-04-29 08:00:00,7.42,126.98,22.0,2.5,,047 km N 77° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0429_0000_B2.html
+2026-04-29 13:44:00,4.51,127.37,10.0,2.9,,236 km S 63° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0429_0544_B1.html
+2026-04-29 19:30:00,7.37,126.76,14.0,2.7,,022 km N 77° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0429_1130_B1.html
+2026-04-29 20:46:00,6.06,126.66,4.0,2.6,,089 km S 45° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0429_1246_B2.html
+2026-04-29 23:50:00,5.45,126.85,15.0,3.8,,143 km S 69° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0429_1550_B1.html
+2026-04-30 00:32:00,7.4,126.68,137.0,2.8,,015 km N 56° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0429_1632_B1.html
+2026-04-30 04:06:00,7.23,126.84,30.0,2.4,,033 km S 71° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0429_2006_B1.html
+2026-04-30 13:24:00,6.84,126.84,18.0,2.5,,049 km S 62° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0430_0524_B2.html
+2026-04-30 13:25:00,5.61,126.01,90.0,2.7,,053 km S 51° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0430_0525_B2.html
+2026-04-30 18:44:00,7.01,126.43,142.0,4.1,,005 km S 32° W of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0430_1044_B3.html
+2026-04-30 20:11:00,5.69,127.14,133.0,2.6,,159 km S 48° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0430_1211_B2.html
+2026-04-30 23:01:00,7.56,126.64,29.0,4.5,,009 km S 79° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0430_1501_B3F.html
+2026-05-01 00:07:00,5.92,126.23,139.0,3.6,,066 km S 63° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0430_1607_B2.html
+2026-05-01 02:35:00,7.09,126.91,2.0,3.4,,042 km S 72° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0430_1835_B2F.html
+2026-05-01 03:42:00,7.06,126.95,11.0,2.1,,048 km S 70° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/April/2026_0430_1942_B2.html
+2026-05-01 08:16:00,6.05,125.85,150.0,3.3,,024 km S 47° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0501_0016_B2.html
+2026-05-01 13:39:00,6.62,125.24,33.0,2.7,,001 km N 81° W of Kiblawan (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0501_0539_B2.html
+2026-05-01 21:15:00,6.64,125.92,25.0,1.9,,017 km S 86° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0501_1315_B1.html
+2026-05-02 01:13:00,7.22,126.66,11.0,2.4,,014 km N 87° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0501_171311_B2F.html
+2026-05-02 04:22:00,6.73,126.06,28.0,1.9,,008 km N 13° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0501_2022_B1.html
+2026-05-02 05:04:00,6.89,126.07,29.0,2.0,,006 km S 83° E of Lupon (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0501_2104_B1.html
+2026-05-02 05:10:00,6.12,125.52,172.0,2.8,,021 km S 66° W of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0501_2110_B1.html
+2026-05-02 06:18:00,5.96,126.79,28.0,2.5,,110 km S 46° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0501_2218_B1.html
+2026-05-02 14:30:00,5.63,127.17,142.0,2.9,,165 km S 47° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0502_0630_B2.html
+2026-05-02 19:28:00,7.63,126.32,34.0,2.2,,022 km N 65° E of New Bataan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0502_1128_B1.html
+2026-05-03 02:05:00,5.84,126.68,27.0,3.1,,113 km S 37° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0502_1805_B1.html
+2026-05-03 05:02:00,7.5,126.49,92.0,2.1,,011 km S 46° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0502_2102_B1.html
+2026-05-03 07:22:00,6.83,126.67,140.0,2.7,,034 km S 46° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0502_2322_B2.html
+2026-05-03 09:32:00,7.54,126.81,24.0,2.9,,028 km S 83° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0503_0132_B2.html
+2026-05-03 12:06:00,6.6,125.91,69.0,1.8,,019 km S 71° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0503_0406_B2.html
+2026-05-03 12:42:00,6.14,126.94,86.0,2.9,,112 km S 59° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0503_0442_B2.html
+2026-05-03 18:33:00,6.93,126.09,30.0,2.1,,009 km S 66° E of Banaybanay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0503_1033_B2.html
+2026-05-03 20:21:00,5.43,127.04,30.0,4.4,,164 km S 71° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0503_1221_B2.html
+2026-05-04 02:26:00,7.01,126.11,44.0,3.0,,012 km N 66° E of Banaybanay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0503_1826_B2.html
+2026-05-04 04:55:00,3.62,126.26,68.0,3.8,,219 km S 25° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0503_2055_B1.html
+2026-05-04 07:52:00,6.99,126.11,33.0,2.4,,011 km N 78° E of Banaybanay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0503_2352_B2.html
+2026-05-04 08:52:00,5.94,126.31,127.0,2.4,,073 km N 88° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0504_0052_B2.html
+2026-05-04 11:37:00,3.02,126.29,34.0,4.4,,282 km S 20° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0504_0337_B2.html
+2026-05-04 13:53:00,7.1,126.7,64.0,3.3,,021 km S 56° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0504_0553_B2.html
+2026-05-04 15:58:00,7.28,126.24,16.0,1.9,,014 km S 73° E of Maragusan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0504_0758_B1.html
+2026-05-04 21:30:00,6.0,126.61,4.0,2.8,,093 km S 40° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0504_1330_B2.html
+2026-05-05 00:06:00,6.01,126.09,79.0,2.2,,048 km S 65° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0504_1606_B2.html
+2026-05-05 08:39:00,7.29,126.59,21.0,2.7,,005 km S 32° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_0039_B2.html
+2026-05-05 17:14:00,2.2,126.51,233.0,3.7,,375 km S 19° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_0914_B1.html
+2026-05-05 18:44:00,5.84,126.48,29.0,2.6,,093 km S 85° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_1044_B2F.html
+2026-05-05 21:32:00,7.11,126.59,122.0,2.0,,012 km S 27° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_1332_B1.html
+2026-05-05 22:34:00,7.26,126.53,13.0,2.6,,006 km N 05° W of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_1434_B2F.html
+2026-05-05 23:58:00,6.71,127.41,9.0,2.4,,111 km S 60° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_1558_B2.html
+2026-05-06 00:28:00,2.84,125.81,56.0,3.8,,288 km S 09° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_1628_B2.html
+2026-05-06 01:28:00,6.03,126.56,23.0,3.1,,087 km S 38° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_1728_B2.html
+2026-05-06 02:32:00,6.65,125.16,13.0,1.5,,009 km S 47° W of Matanao (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_1832_B2.html
+2026-05-06 03:24:00,6.04,126.55,10.0,3.2,,086 km S 38° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_1924_B2.html
+2026-05-06 04:12:00,7.84,126.04,5.0,1.4,,002 km N 27° W of Monkayo (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_2012_B1.html
+2026-05-06 04:27:00,2.27,128.2,226.0,4.1,,465 km S 42° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_2027_B2.html
+2026-05-06 07:10:00,7.54,126.55,26.0,4.0,,004 km S 23° W of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0505_2310_B3F.html
+2026-05-06 21:06:00,7.82,126.38,6.0,1.8,,005 km S 09° E of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0506_1306_B1.html
+2026-05-06 22:56:00,2.32,127.64,85.0,4.3,,424 km S 37° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0506_1456_B2.html
+2026-05-06 23:15:00,6.16,127.37,70.0,2.8,,142 km S 46° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0506_1515_B2.html
+2026-05-06 23:35:00,7.45,126.72,28.0,5.6,,022 km S 52° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0506_1535_B3F.html
+2026-05-06 23:47:00,5.59,126.61,72.0,2.7,,113 km S 72° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0506_1547_B2.html
+2026-05-06 23:49:00,5.92,125.98,125.0,2.3,,037 km N 89° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0506_1549_B2.html
+2026-05-07 03:41:00,5.09,126.38,16.0,3.3,,109 km S 67° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0506_1941_B2.html
+2026-05-07 03:49:00,6.31,126.25,57.0,2.3,,042 km S 28° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0506_1949_B2.html
+2026-05-07 04:01:00,6.96,126.35,25.0,3.7,,015 km N 86° E of City Of Mati (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0506_2001_B2.html
+2026-05-07 11:57:00,5.48,127.57,89.0,3.0,,211 km S 52° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_0357_B1.html
+2026-05-07 14:54:00,7.62,126.96,6.0,2.5,,045 km N 83° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_0654_B2.html
+2026-05-07 17:08:00,7.54,126.75,28.0,4.0,,022 km S 78° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_0908_B3F.html
+2026-05-07 22:47:00,6.53,126.73,178.0,2.7,,065 km S 29° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_1447_B2.html
+2026-05-08 01:07:00,6.78,127.07,2.0,2.3,,076 km S 51° E of Manay (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_1707_B2.html
+2026-05-08 03:21:00,7.72,126.03,37.0,1.7,,008 km N 49° W of Compostela (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_1921_B2.html
+2026-05-08 04:20:00,7.89,126.41,19.0,2.0,,005 km N 66° E of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_2020_B1.html
+2026-05-08 04:45:00,6.32,126.93,193.0,3.6,,097 km S 34° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_2045_B2.html
+2026-05-08 05:22:00,7.01,126.56,49.0,2.1,,013 km S 72° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_2122_B1.html
+2026-05-08 07:31:00,7.83,126.27,27.0,1.6,,012 km S 70° W of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0507_2331_B2.html
+2026-05-08 13:43:00,6.9,126.66,30.0,1.9,,029 km S 55° E of Tarragona (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0508_0543_B2.html
+2026-05-08 13:53:00,1.94,125.87,35.0,4.4,,387 km S 07° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0508_0553_B1.html
+2026-05-08 17:38:00,7.92,126.25,8.0,2.4,,015 km N 70° W of Boston (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0508_0938_B2.html
+2026-05-08 20:28:00,6.58,126.0,139.0,2.4,,011 km S 43° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0508_1228_B2.html
+2026-05-09 03:44:00,5.87,126.72,27.0,2.9,,113 km S 40° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0508_1944_B2.html
+2026-05-09 05:42:00,6.62,125.99,29.0,2.1,,010 km S 71° W of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0508_2142_B2.html
+2026-05-09 17:59:00,6.2,125.78,79.0,1.9,,009 km N 87° E of Don Marcelino (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0509_0959_B2.html
+2026-05-09 19:43:00,7.42,126.82,27.0,2.4,,030 km N 70° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0509_1143_B2.html
+2026-05-09 20:26:00,4.75,126.28,113.0,3.1,,120 km S 53° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0509_1226_B2.html
+2026-05-10 00:20:00,7.67,126.68,23.0,2.0,,017 km N 49° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0509_1620_B2.html
+2026-05-10 02:13:00,7.1,125.42,7.0,3.0,,029 km N 01° E of Santa Cruz (Davao Del Sur),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0509_1813_B2F.html
+2026-05-10 09:50:00,5.34,126.72,82.0,4.4,,134 km S 62° E of Jose Abad Santos (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0510_0150_B2.html
+2026-05-10 09:58:00,7.67,126.64,22.0,2.4,,013 km N 41° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0510_0158_B2.html
+2026-05-10 20:27:00,7.49,126.32,31.0,2.0,,022 km S 73° E of New Bataan (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0510_1227_B2.html
+2026-05-10 20:37:00,7.44,126.67,26.0,1.8,,017 km N 44° E of Caraga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0510_1237_B2.html
+2026-05-10 21:06:00,4.0,126.51,5.0,4.1,,197 km S 38° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0510_1306_B2.html
+2026-05-10 21:40:00,4.05,126.44,114.0,3.7,,188 km S 37° E of Balut Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0510_1340_B2.html
+2026-05-11 05:09:00,7.65,126.69,14.0,2.3,,016 km N 61° E of Baganga (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0510_2109_B2.html
+2026-05-11 14:46:00,4.92,126.35,17.0,3.3,,115 km S 58° E of Sarangani Island (Municipality Of Sarangani) (Davao Occidental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0511_0646_B1.html
+2026-05-11 15:54:00,7.91,126.15,24.0,3.9,,014 km N 48° E of Monkayo (Davao De Oro),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0511_0754_B2F.html
+2026-05-12 06:18:00,6.52,126.43,23.0,3.2,,042 km S 69° E of Governor Generoso (Davao Oriental),https://earthquake.phivolcs.dost.gov.ph/2026_Earthquake_Information/May/2026_0511_2218_B1.html
