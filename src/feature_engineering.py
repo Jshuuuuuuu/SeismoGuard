@@ -383,37 +383,6 @@ def cat7(province_df: pd.DataFrame, forecast_date_T: Any) -> dict[str, float]:
     }
 
 
-def compute_all_features(
-    province_df: pd.DataFrame,
-    forecast_date_T: Any,
-    gr_feature_fn=None,
-    event_lat_col: str = "latitude",
-    event_lon_col: str = "longitude",
-) -> dict[str, int | float]:
-    """Compute the full feature set with optional extra features."""
-    features: dict[str, int | float] = {}
-    features.update(cat1(province_df, forecast_date_T))
-    features.update(cat2(province_df, forecast_date_T))
-    features.update(cat3(province_df, forecast_date_T))
-    features.update(cat4(province_df, forecast_date_T))
-    features.update(cat5(province_df, forecast_date_T, event_lat_col=event_lat_col, event_lon_col=event_lon_col))
-    features.update(
-        cat6(
-            province_df=province_df,
-            forecast_date_T=forecast_date_T,
-            event_lat_col=event_lat_col,
-            event_lon_col=event_lon_col,
-        )
-    )
-    features.update(cat7(province_df, forecast_date_T))
-    if gr_feature_fn is not None:
-        gr_features = gr_feature_fn(province_df, forecast_date_T)
-        if not isinstance(gr_features, dict):
-            raise ValueError("gr_feature_fn must return a dict of feature_name -> value")
-        features.update(gr_features)
-    return features
-
-
 def cat6(
     province_df: pd.DataFrame,
     forecast_date_T: Any,
@@ -488,6 +457,31 @@ def cat6(
         "pct_clustered_30d": pct_clustered,
         "max_grid_cell_count_30d": int(max_grid_cell_count),
     }
+
+
+def compute_all_features(
+    province_df: pd.DataFrame,
+    forecast_date_T: Any,
+    event_lat_col: str = "latitude",
+    event_lon_col: str = "longitude",
+) -> dict[str, int | float]:
+    """Compute the full feature set."""
+    features: dict[str, int | float] = {}
+    features.update(cat1(province_df, forecast_date_T))
+    features.update(cat2(province_df, forecast_date_T))
+    features.update(cat3(province_df, forecast_date_T))
+    features.update(cat4(province_df, forecast_date_T))
+    features.update(cat5(province_df, forecast_date_T, event_lat_col=event_lat_col, event_lon_col=event_lon_col))
+    features.update(
+        cat6(
+            province_df=province_df,
+            forecast_date_T=forecast_date_T,
+            event_lat_col=event_lat_col,
+            event_lon_col=event_lon_col,
+        )
+    )
+    features.update(cat7(province_df, forecast_date_T))
+    return features
 
 
 def build_category_6_features(
