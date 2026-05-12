@@ -112,7 +112,7 @@ def b_value_features(events: pd.DataFrame, t: pd.Timestamp) -> dict[str, float]:
         if n_above < 30:
             return np.nan, np.nan, n_above
 
-        # Aki maximum-likelihood b-value with 0.1 magnitude-bin correction.
+        
         denominator = float(above.mean() - (2.7 - 0.05))
         if denominator <= 0:
             return np.nan, np.nan, n_above
