@@ -8,10 +8,10 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_FORECAST = ROOT / "outputs" / "forecast_archive" / "forecast_2026-05-12_enhanced_linear_regression.csv"
+DEFAULT_FORECAST = ROOT / "outputs" / "forecast_archive" / "fc_ts_2026-05-20.csv"
 DEFAULT_EVENTS = ROOT / "data" / "raw" / "earthquakes" / "davao_region_2026_02_01_to_present.csv"
-DEFAULT_OUTPUT = ROOT / "outputs" / "forecast_archive" / "forecast_2026-05-12_evaluation_results.csv"
-DEFAULT_EVENTS_USED = ROOT / "outputs" / "forecast_archive" / "forecast_2026-05-12_actual_events_used.csv"
+DEFAULT_OUTPUT = ROOT / "outputs" / "forecast_archive" / "eval_ts_2026-05-20.csv"
+DEFAULT_EVENTS_USED = ROOT / "outputs" / "forecast_archive" / "actual_ts_2026-05-20.csv"
 
 PROVINCE_MAP = {
     "davao de oro": "Davao De Oro",
