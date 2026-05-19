@@ -20,6 +20,16 @@ Evaluation workflow after the window closes:
    - `absolute_error = abs(error)`
 6. Use the results to discuss model behavior and decide whether to add features, tune models, or retrain with updated data.
 
+Scraped-record workflow:
+
+```bash
+python webscraping/scrape_davao_earthquakes.py --start-date 2026-05-13 --end-date 2026-05-26 --output data/raw/earthquakes/davao_region_2026_02_01_to_present.csv
+python src/evaluate_forecast_archive.py --actuals-checked-date 2026-05-20
+python src/update_davao_processed_features.py
+```
+
+The primary 7-day evaluation must remain 2026-05-13 to 2026-05-19. If a province has zero events in that primary window, the evaluation script also records an optional follow-up window in `extended_*` columns. That extended window is useful for discussion, but it should not replace the original 7-day target score.
+
 Important note:
 
 This forecast should remain frozen. Do not overwrite the archived forecast after seeing the actual PHIVOLCS outcomes, because it represents the out-of-sample prediction made before the target window was observed.

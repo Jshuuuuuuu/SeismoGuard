@@ -15,7 +15,9 @@ from bs4 import BeautifulSoup
 
 START_DATE = date(2026, 2, 1)
 PHIVOLCS_EARTHQUAKE_MENU = "https://www.phivolcs.dost.gov.ph/index.php/earthquake-information-menu"
-DEFAULT_OUTPUT = Path("data/raw/earthquakes/davao_region_2026_02_1_to_present.csv")
+PHIVOLCS_LATEST_EARTHQUAKES = "https://earthquake.phivolcs.dost.gov.ph/"
+PHIVOLCS_MONTHLY_ARCHIVE = "https://earthquake.phivolcs.dost.gov.ph/EQLatest-Monthly/{year}/{year}_{month}.html"
+DEFAULT_OUTPUT = Path("data/raw/earthquakes/davao_region_2026_02_01_to_present.csv")
 
 DAVAO_REGION_KEYWORDS = (
     "davao de oro",
@@ -65,6 +67,21 @@ MONTHS = {
     "november": 11,
     "dec": 12,
     "december": 12,
+}
+
+MONTH_NAMES = {
+    1: "January",
+    2: "February",
+    3: "March",
+    4: "April",
+    5: "May",
+    6: "June",
+    7: "July",
+    8: "August",
+    9: "September",
+    10: "October",
+    11: "November",
+    12: "December",
 }
 
 
@@ -139,6 +156,26 @@ def parse_magnitude(value: str) -> tuple[float, str]:
     return float(magnitude), (mag_type or "").strip()
 
 
+def parse_latest_listing_datetime(value: str) -> datetime:
+    match = re.search(
+        r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})\s*-\s*(\d{1,2}):(\d{2})\s*([AP]M)",
+        value,
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        raise ValueError(f"Could not parse PHIVOLCS latest-listing date/time: {value!r}")
+
+    day, month_name, year, hour, minute, am_pm = match.groups()
+    month = MONTHS[month_name.lower()]
+    hour_i = int(hour)
+    if am_pm.upper() == "PM" and hour_i != 12:
+        hour_i += 12
+    elif am_pm.upper() == "AM" and hour_i == 12:
+        hour_i = 0
+
+    return datetime(int(year), month, int(day), hour_i, int(minute), 0)
+
+
 def text_after_label(page_text: str, label: str) -> str:
     match = re.search(rf"{re.escape(label)}(?:\s*\(Km\))?\s*:\s*", page_text, flags=re.IGNORECASE)
     if not match:
@@ -181,18 +218,95 @@ def parse_event_page(html: str, source_url: str) -> EarthquakeEvent:
     )
 
 
+def parse_latest_listing_events(
+    html: str,
+    source_url: str,
+) -> list[EarthquakeEvent]:
+    soup = BeautifulSoup(html, "html.parser")
+    events: list[EarthquakeEvent] = []
+
+    for table in soup.select("table"):
+        for row in table.select("tr"):
+            cells = row.find_all(["td", "th"])
+            values = [normalize_space(cell.get_text(" ")) for cell in cells]
+            if len(values) != 6:
+                continue
+            if values[0].casefold().startswith("date"):
+                continue
+
+            try:
+                event_dt = parse_latest_listing_datetime(values[0])
+                latitude = float(values[1])
+                longitude = float(values[2])
+                depth = float(values[3])
+                magnitude = float(values[4])
+            except ValueError:
+                continue
+
+            link = row.select_one("a[href]")
+            event_source = source_url
+            if link is not None:
+                href = link.get("href", "").replace("\\", "/")
+                event_source = urljoin(source_url, href)
+
+            events.append(
+                EarthquakeEvent(
+                    datetime=event_dt.strftime("%Y-%m-%d %H:%M:%S"),
+                    latitude=latitude,
+                    longitude=longitude,
+                    depth=depth,
+                    magnitude=magnitude,
+                    magnitude_type="",
+                    location=normalize_space(values[5]),
+                    source_url=event_source,
+                )
+            )
+
+    return events
+
+
+def month_starts_between(start_date: date, end_date: date) -> list[date]:
+    current = date(start_date.year, start_date.month, 1)
+    last = date(end_date.year, end_date.month, 1)
+    months: list[date] = []
+    while current <= last:
+        months.append(current)
+        if current.month == 12:
+            current = date(current.year + 1, 1, 1)
+        else:
+            current = date(current.year, current.month + 1, 1)
+    return months
+
+
+def latest_listing_urls(start_date: date, end_date: date) -> list[str]:
+    today = date.today()
+    urls: list[str] = []
+    for month_start in month_starts_between(start_date, end_date):
+        if month_start.year == today.year and month_start.month == today.month:
+            urls.append(PHIVOLCS_LATEST_EARTHQUAKES)
+        else:
+            urls.append(
+                PHIVOLCS_MONTHLY_ARCHIVE.format(
+                    year=month_start.year,
+                    month=MONTH_NAMES[month_start.month],
+                )
+            )
+    return urls
+
+
 def is_davao_region_event(event: EarthquakeEvent) -> bool:
     searchable = event.location.casefold()
     return any(keyword in searchable for keyword in DAVAO_REGION_KEYWORDS)
 
 
-def discover_bulletin_links(session: requests.Session, max_pages: int) -> list[str]:
+def discover_bulletin_links(session: requests.Session, max_pages: int, verify_tls: bool = True) -> list[str]:
     links: set[str] = set()
     for page in range(max_pages):
         response = session.get(
             PHIVOLCS_EARTHQUAKE_MENU,
             params={"start": page * 20},
             timeout=30,
+            verify=verify_tls,
         )
         response.raise_for_status()
 
@@ -206,7 +320,12 @@ def discover_bulletin_links(session: requests.Session, max_pages: int) -> list[s
     return sorted(links)
 
 
-def scrape_events(start_date: date, end_date: date, max_pages: int) -> list[EarthquakeEvent]:
+def scrape_events(
+    start_date: date,
+    end_date: date,
+    max_pages: int,
+    verify_tls: bool = True,
+) -> list[EarthquakeEvent]:
     session = requests.Session()
     session.headers.update(
         {
@@ -217,9 +336,23 @@ def scrape_events(start_date: date, end_date: date, max_pages: int) -> list[Eart
         }
     )
 
+    latest_events: list[EarthquakeEvent] = []
+    for latest_url in latest_listing_urls(start_date, end_date):
+        latest_response = session.get(latest_url, timeout=30, verify=verify_tls)
+        latest_response.raise_for_status()
+        latest_events.extend(parse_latest_listing_events(latest_response.text, latest_response.url))
+    latest_filtered = [
+        event
+        for event in latest_events
+        if start_date <= datetime.strptime(event.datetime, "%Y-%m-%d %H:%M:%S").date() <= end_date
+        and is_davao_region_event(event)
+    ]
+    if latest_filtered:
+        return sorted(latest_filtered, key=lambda item: item.datetime)
+
     events: list[EarthquakeEvent] = []
-    for url in discover_bulletin_links(session, max_pages=max_pages):
-        response = session.get(url, timeout=30)
+    for url in discover_bulletin_links(session, max_pages=max_pages, verify_tls=verify_tls):
+        response = session.get(url, timeout=30, verify=verify_tls)
         response.raise_for_status()
 
         try:
@@ -262,7 +395,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--start-date",
         default=START_DATE.isoformat(),
-        help="Inclusive start date in YYYY-MM-DD format. Default: 2026-02-11.",
+        help=f"Inclusive start date in YYYY-MM-DD format. Default: {START_DATE.isoformat()}.",
     )
     parser.add_argument(
         "--end-date",
@@ -280,6 +413,11 @@ def parse_args() -> argparse.Namespace:
         default=75,
         help="Number of PHIVOLCS earthquake menu pages to scan. Default: 75.",
     )
+    parser.add_argument(
+        "--insecure",
+        action="store_true",
+        help="Disable TLS certificate verification. Use only when the local certificate store cannot verify PHIVOLCS.",
+    )
     return parser.parse_args()
 
 
@@ -292,7 +430,12 @@ def main() -> None:
     if end_date < start_date:
         raise ValueError("end-date must be on or after start-date")
 
-    events = scrape_events(start_date=start_date, end_date=end_date, max_pages=args.max_pages)
+    events = scrape_events(
+        start_date=start_date,
+        end_date=end_date,
+        max_pages=args.max_pages,
+        verify_tls=not args.insecure,
+    )
     write_csv(events, output_path)
     print(f"Saved {len(events)} Davao Region earthquake events to {output_path}")
 

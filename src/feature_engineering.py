@@ -12,17 +12,6 @@ from shapely.geometry import Point
 
 def _build_category_1_3_base(province_df: pd.DataFrame, forecast_date_T: Any) -> dict[str, int | float]:
     """Base builder for Category 1-3 time-window features up to forecast date T.
-
-    Required columns in ``province_df``:
-    - ``datetime``: event timestamp
-    - ``magnitude``: earthquake magnitude
-    - ``depth``: earthquake depth
-
-    Past-only semantics (no leakage):
-    - Use only events strictly before T: datetime < T
-    - 1 day window: [T - 1 day, T)
-    - 7 day window: [T - 7 days, T)
-    - 30 day window: [T - 30 days, T)
     """
     required_cols = {"datetime", "magnitude", "depth"}
     missing_cols = required_cols - set(province_df.columns)
@@ -101,7 +90,6 @@ def cat3(province_df: pd.DataFrame, forecast_date_T: Any) -> dict[str, float]:
 
 
 def build_category_1_3_features(province_df: pd.DataFrame, forecast_date_T: Any) -> dict[str, int | float]:
-    """Legacy name for Category 1-3 features. Prefer cat1/cat2/cat3."""
     return _build_category_1_3_base(province_df, forecast_date_T)
 
 
@@ -167,9 +155,6 @@ def nearest_fault_distance_km(
     fault_lon_col: str = "longitude",
 ) -> float:
     """Return nearest fault-point distance (km) from an event location.
-
-    ``fault_points_df`` is expected to come from a PHIVOLCS/DOST fault map export
-    with at least latitude/longitude columns.
     """
     required_cols = {fault_lat_col, fault_lon_col}
     missing_cols = required_cols - set(fault_points_df.columns)
@@ -392,13 +377,7 @@ def cat6(
     dbscan_min_samples: int = 2,
     grid_cell_size_degrees: float = 0.1,
 ) -> dict[str, int | float]:
-    """Category 6 clustering features on the last 30 days before T.
-    Returns:
-    - num_clusters_30d: number of DBSCAN clusters excluding noise
-    - largest_cluster_size_30d: size of the largest cluster
-    - pct_clustered_30d: share of 30-day events assigned to a cluster
-    - max_grid_cell_count_30d: max number of events in any 0.1-degree grid cell
-    """
+    """Category 6 clustering features on the last 30 days before T. """
     required_cols = {"datetime", event_lat_col, event_lon_col}
     missing_cols = required_cols - set(province_df.columns)
     if missing_cols:
@@ -493,7 +472,7 @@ def build_category_6_features(
     dbscan_min_samples: int = 2,
     grid_cell_size_degrees: float = 0.1,
 ) -> dict[str, int | float]:
-    """Legacy name for Category 6 features. Prefer cat6."""
+    
     return cat6(
         province_df=province_df,
         forecast_date_T=forecast_date_T,
@@ -517,9 +496,8 @@ def event_based_generator(
     feature_kwargs: dict[str, Any] | None = None,
 ) -> tuple[pd.DataFrame, pd.Series]:
     """Generate event-based samples per province using weekly forecast dates.
-    Returns:
-    - X: feature matrix (DataFrame) indexed by (province, forecast_date)
-    - y: target vector (Series) indexed by (province, forecast_date)
+    X: feature matrix (DataFrame) indexed by (province, forecast_date)
+    y: target vector (Series) indexed by (province, forecast_date)
     """
     required_cols = {province_col, datetime_col, magnitude_col}
     missing_cols = required_cols - set(events_df.columns)
@@ -595,10 +573,6 @@ def leakage_audit(
     atol: float = 1e-9,
 ) -> pd.DataFrame:
     """Audit leakage by recomputing sampled feature rows using past-only data.
-
-    Returns a long-form DataFrame with observed values (from X) and
-    recomputed values (full vs past-only). Any mismatches indicate leakage
-    or drift between X and the feature function.
     """
     if not isinstance(X.index, pd.MultiIndex) or province_col not in X.index.names:
         raise ValueError("X must be indexed by a MultiIndex including province and forecast_date")
@@ -658,12 +632,7 @@ def plot_feature_diagnostics(
     bins: int = 30,
     figsize: tuple[int, int] = (12, 8),
 ) -> dict[str, Path]:
-    """Plot feature distributions and correlation heatmap.
-
-    Saves two files:
-    - feature_distributions.png
-    - feature_correlation_heatmap.png
-    """
+    """Plot feature distributions and correlation heatmap."""
     try:
         import matplotlib.pyplot as plt
     except ImportError as exc:  # pragma: no cover - depends on local environment
